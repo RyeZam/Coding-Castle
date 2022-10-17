@@ -1,0 +1,762 @@
+fileFormatVersion: 2
+guid: b883c7e5347e74541aa46f01b64324b6
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: pixel_alphabet_by_kid_kuma_d3j7jnj-removebg-preview (1)_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 271.5
+        width: 73.71429
+        height: 90.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d24af2bf5d9cbe34e935ac0dac9458d6
+      internalID: 1791227520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixel_alphabet_by_kid_kuma_d3j7jnj-removebg-preview (1)_1
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 271.5
+        width: 73.71429
+        height: 90.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4adcf1b096cead741a009af08d78039e
+      internalID: -827402240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixel_alphabet_by_kid_kuma_d3j7jnj-removebg-preview (1)_2
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 271.5
+        width: 73.71429
+        height: 90.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c0797e1c8fbdd0418c05d5acd25e324
+      internalID: -50590961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixel_alphabet_by_kid_kuma_d3j7jnj-removebg-preview (1)_3
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 271.5
+        width: 73.71429
+        height: 90.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebd93a11c20ed0c418ff346f0e8e35e4
+      internalID: 684155335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixel_alphabet_by_kid_kuma_d3j7jnj-removebg-preview (1)_4
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 271.5
+        width: 73.71429
+        height: 90.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 129c4521378ccab4993f912bef5ba151
+      internalID: 1476122797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixel_alphabet_by_kid_kuma_d3j7jnj-removebg-preview (1)_5
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 271.5
+        width: 73.71429
+        height: 90.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f91013351a938d643b914a84bc6337f3
+      internalID: -1194856274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixel_alphabet_by_kid_kuma_d3j7jnj-removebg-preview (1)_6
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 271.5
+        width: 73.71429
+        height: 90.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 190e9a1e768887c46866ccf99311e10c
+      internalID: 867615069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixel_alphabet_by_kid_kuma_d3j7jnj-removebg-preview (1)_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 181.5
+        width: 73.71429
+        height: 90.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c4d68ab1614d4040b74c9abfbbf642d
+      internalID: 485688380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixel_alphabet_by_kid_kuma_d3j7jnj-removebg-preview (1)_8
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 181.5
+        width: 73.71429
+        height: 90.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfc9e971411928148ba2d51d535652dd
+      internalID: -742706315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixel_alphabet_by_kid_kuma_d3j7jnj-removebg-preview (1)_9
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 181.5
+        width: 73.71429
+        height: 90.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe2fcef815b19f147b5568ba8839480c
+      internalID: 1198100689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixel_alphabet_by_kid_kuma_d3j7jnj-removebg-preview (1)_10
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 181.5
+        width: 73.71429
+        height: 90.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c24582abeb4267942b3824f7b2283635
+      internalID: 1299779107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixel_alphabet_by_kid_kuma_d3j7jnj-removebg-preview (1)_11
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 181.5
+        width: 73.71429
+        height: 90.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f9c338f00daad0459ee0a9e04b31409
+      internalID: -633298908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixel_alphabet_by_kid_kuma_d3j7jnj-removebg-preview (1)_12
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 181.5
+        width: 73.71429
+        height: 90.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1048d5ae5b9dcd143b38592e6e5ce74f
+      internalID: 1880983305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixel_alphabet_by_kid_kuma_d3j7jnj-removebg-preview (1)_13
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 181.5
+        width: 73.71429
+        height: 90.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c5dfa2f8e248404ab6a4e059520a5db
+      internalID: -50221698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixel_alphabet_by_kid_kuma_d3j7jnj-removebg-preview (1)_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 91.5
+        width: 73.71429
+        height: 90.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e52720df9bbeda84c99f353f56c9cbdc
+      internalID: 2051574086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixel_alphabet_by_kid_kuma_d3j7jnj-removebg-preview (1)_15
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 91.5
+        width: 73.71429
+        height: 90.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af3eddaaa606a654baad8a615f932270
+      internalID: 2074958658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixel_alphabet_by_kid_kuma_d3j7jnj-removebg-preview (1)_16
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 91.5
+        width: 73.71429
+        height: 90.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 094f7cc514385e146adbb52a864a166d
+      internalID: 1117906007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixel_alphabet_by_kid_kuma_d3j7jnj-removebg-preview (1)_17
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 91.5
+        width: 73.71429
+        height: 90.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9dee64cf3eaf044a90c82dac13843d7
+      internalID: 670102318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixel_alphabet_by_kid_kuma_d3j7jnj-removebg-preview (1)_18
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 91.5
+        width: 73.71429
+        height: 90.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06f04e076bfc2874bade24c650e2abb8
+      internalID: -1246779916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixel_alphabet_by_kid_kuma_d3j7jnj-removebg-preview (1)_19
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 91.5
+        width: 73.71429
+        height: 90.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 918544f15a53f2d48936d4fe9518c14b
+      internalID: 54352705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixel_alphabet_by_kid_kuma_d3j7jnj-removebg-preview (1)_20
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 91.5
+        width: 73.71429
+        height: 90.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 193448b6829900343923e3499bbb2d75
+      internalID: -97692349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixel_alphabet_by_kid_kuma_d3j7jnj-removebg-preview (1)_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1.5
+        width: 73.71429
+        height: 90.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5bc7b1bbec27994b9a68d8975665a35
+      internalID: 195471485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixel_alphabet_by_kid_kuma_d3j7jnj-removebg-preview (1)_22
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 1.5
+        width: 73.71429
+        height: 90.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93a58552feda7b4499d6a3beee637f19
+      internalID: -1030886735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixel_alphabet_by_kid_kuma_d3j7jnj-removebg-preview (1)_23
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 1.5
+        width: 73.71429
+        height: 90.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ba9320445491284a8af1102d756b426
+      internalID: -201339274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixel_alphabet_by_kid_kuma_d3j7jnj-removebg-preview (1)_24
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 1.5
+        width: 73.71429
+        height: 90.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94376e8cacf9b1245a801e57b1d62449
+      internalID: 1500568773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixel_alphabet_by_kid_kuma_d3j7jnj-removebg-preview (1)_25
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 1.5
+        width: 73.71429
+        height: 90.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f0359b1cebd2d845922257f96835536
+      internalID: 923619414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixel_alphabet_by_kid_kuma_d3j7jnj-removebg-preview (1)_26
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 1.5
+        width: 73.71429
+        height: 90.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79759a9da6fb70446b1faeaca26a920b
+      internalID: 1065529237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixel_alphabet_by_kid_kuma_d3j7jnj-removebg-preview (1)_27
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 1.5
+        width: 73.71429
+        height: 90.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e58f025a2d5ab1749974b2d48119f166
+      internalID: 1849601633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      pixel_alphabet_by_kid_kuma_d3j7jnj-removebg-preview (1)_13: -50221698
+      pixel_alphabet_by_kid_kuma_d3j7jnj-removebg-preview (1)_1: -827402240
+      pixel_alphabet_by_kid_kuma_d3j7jnj-removebg-preview (1)_20: -97692349
+      pixel_alphabet_by_kid_kuma_d3j7jnj-removebg-preview (1)_27: 1849601633
+      pixel_alphabet_by_kid_kuma_d3j7jnj-removebg-preview (1)_3: 684155335
+      pixel_alphabet_by_kid_kuma_d3j7jnj-removebg-preview (1)_4: 1476122797
+      pixel_alphabet_by_kid_kuma_d3j7jnj-removebg-preview (1)_12: 1880983305
+      pixel_alphabet_by_kid_kuma_d3j7jnj-removebg-preview (1)_24: 1500568773
+      pixel_alphabet_by_kid_kuma_d3j7jnj-removebg-preview (1)_16: 1117906007
+      pixel_alphabet_by_kid_kuma_d3j7jnj-removebg-preview (1)_26: 1065529237
+      pixel_alphabet_by_kid_kuma_d3j7jnj-removebg-preview (1)_5: -1194856274
+      pixel_alphabet_by_kid_kuma_d3j7jnj-removebg-preview (1)_11: -633298908
+      pixel_alphabet_by_kid_kuma_d3j7jnj-removebg-preview (1)_15: 2074958658
+      pixel_alphabet_by_kid_kuma_d3j7jnj-removebg-preview (1)_0: 1791227520
+      pixel_alphabet_by_kid_kuma_d3j7jnj-removebg-preview (1)_19: 54352705
+      pixel_alphabet_by_kid_kuma_d3j7jnj-removebg-preview (1)_17: 670102318
+      pixel_alphabet_by_kid_kuma_d3j7jnj-removebg-preview (1)_2: -50590961
+      pixel_alphabet_by_kid_kuma_d3j7jnj-removebg-preview (1)_23: -201339274
+      pixel_alphabet_by_kid_kuma_d3j7jnj-removebg-preview (1)_10: 1299779107
+      pixel_alphabet_by_kid_kuma_d3j7jnj-removebg-preview (1)_9: 1198100689
+      pixel_alphabet_by_kid_kuma_d3j7jnj-removebg-preview (1)_8: -742706315
+      pixel_alphabet_by_kid_kuma_d3j7jnj-removebg-preview (1)_18: -1246779916
+      pixel_alphabet_by_kid_kuma_d3j7jnj-removebg-preview (1)_25: 923619414
+      pixel_alphabet_by_kid_kuma_d3j7jnj-removebg-preview (1)_7: 485688380
+      pixel_alphabet_by_kid_kuma_d3j7jnj-removebg-preview (1)_14: 2051574086
+      pixel_alphabet_by_kid_kuma_d3j7jnj-removebg-preview (1)_22: -1030886735
+      pixel_alphabet_by_kid_kuma_d3j7jnj-removebg-preview (1)_21: 195471485
+      pixel_alphabet_by_kid_kuma_d3j7jnj-removebg-preview (1)_6: 867615069
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
