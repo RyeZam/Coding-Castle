@@ -5,21 +5,18 @@ using TMPro;
 
 public class InputContoller : MonoBehaviour
 {
-    private string input;
-    public TextMeshProUGUI value;
 
+    public TMP_InputField mainInputField;
 
-    public void resetInput()
+    public void Activate()
     {
-        value.text = "Sample text";
+        mainInputField.ActivateInputField();
     }
 
-    public void ReadStringInput(string s)
+    public void Deselect()
     {
-        input = s;
-        Debug.Log(input);
-        value.text = input;
+        mainInputField.DeactivateInputField();
+        Debug.Log("Got Here");
     }
-
 
 }
