@@ -28,7 +28,7 @@ public class BattleSystem : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        state = BattleState.START;
+        state = BattleState.START;      
         StartCoroutine(SetupBattle());
     }
 
@@ -40,6 +40,7 @@ public class BattleSystem : MonoBehaviour
         GameObject enemyGO = Instantiate(enemyPrefab, enemyBattleStation);
         enemyUnit = enemyGO.GetComponent<Unit>();
 
+        //playerUnit.currentHP = Inventory.currentHP;
         dialogueText.text = "A scary "+ enemyUnit.unitName + " approaches...";
         playerHUD.SetHUD(playerUnit);
         enemyHUD.SetHUD(enemyUnit);

@@ -10,6 +10,8 @@ public class PlayerHealth : MonoBehaviour
     public HealthBar healthBar;
     public int Respawn;
 
+    public float HP;
+
     public float playerHealth
     {
         set
@@ -26,6 +28,7 @@ public class PlayerHealth : MonoBehaviour
         get
         {
             healthBar.SetHealth(currentHealth);
+            Inventory.currentHP = currentHealth;
             return currentHealth;
         }
     }
@@ -39,6 +42,7 @@ public class PlayerHealth : MonoBehaviour
         currentHealth = maxHealth;
         healthBar.SetMaxHealth(maxHealth);
         anim = GetComponent<Animator>();
+        Respawn = SceneManager.GetActiveScene().buildIndex;
     }
 
     // Update is called once per frame

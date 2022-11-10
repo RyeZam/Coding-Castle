@@ -6,8 +6,8 @@ public class Unit : MonoBehaviour
 {
     public string unitName;
     public int damage;
-    public int maxHP;
-    public int currentHP;
+    public float maxHP;
+    public float currentHP;
 
     Animator animator;
 
@@ -16,7 +16,7 @@ public class Unit : MonoBehaviour
         animator = GetComponent<Animator>();
     }
 
-    public bool TakeDamage(int dmg)
+    public bool TakeDamage(float dmg)
     {
         currentHP -= dmg;
 

@@ -58,5 +58,9 @@ public class Weapon : MonoBehaviour
         {
             other.GetComponent<Barrel>().Smash();
         }
+        else if (other.CompareTag("chest"))
+        {
+            other.GetComponent<Chest>().Open();
+        }
     }
 }

@@ -7,6 +7,8 @@ TagManager:
   - Enemy
   - breakable
   - Collectable
+  - Teleporter
+  - chest
   layers:
   - Default
   - TransparentFX

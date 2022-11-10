@@ -5,8 +5,9 @@ using UnityEngine;
 public class DoorOpen : MonoBehaviour
 {
 
-    public float reqEnemy = 0;
-    public int reqCoin = 0;
+    //public float reqEnemy = 0;
+    //public int reqCoin = 0;
+    public int reqChest;
     //public GameObject player;
 
     Animator anim;
@@ -21,7 +22,7 @@ public class DoorOpen : MonoBehaviour
     void Update()
     {
         //player.GetComponent<Inventory>();
-        if ((reqCoin==Inventory.count) && (reqEnemy==Inventory.enCount))
+        if (reqChest==Inventory.chest)
         {
             anim.SetBool("isOpen", true);
         }

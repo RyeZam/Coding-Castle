@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 1497483618129186134}
   - component: {fileID: 1497483618129186139}
   - component: {fileID: 2285380878282226657}
+  - component: {fileID: 7463429110017815780}
   m_Layer: 0
   m_Name: DoorClosed
   m_TagString: Untagged
@@ -162,3 +163,17 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &7463429110017815780
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1497483618129186132}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1280497c05a7c8c4297aa8497a2959a0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  reqEnemy: 1
+  reqCoin: 2

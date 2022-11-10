@@ -121,4 +121,4 @@ MonoBehaviour:
   unitName: Knight
   damage: 2
   maxHP: 25
-  currentHP: 20
+  currentHP: 25

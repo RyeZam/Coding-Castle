@@ -10,12 +10,15 @@ public class Inventory : MonoBehaviour
 
     public static int count = 0;
     public static float enCount = 0;
+    public static int chest = 0;
+    public static float currentHP;
 
     // Start is called before the first frame update
     void Start()
     {
         count = 0;
         enCount = 0;
+        chest = 0;
     }
 
     // Update is called once per frame
