@@ -1,0 +1,107 @@
+{
+    "Map/SizeTest": {
+        "height": 4300,
+        "width": 2
+    },
+    "activeFile": "5A.tmx",
+    "expandedProjectPaths": [
+    ],
+    "fileStates": {
+        "1A.tmx": {
+            "scale": 1.5,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": -383.3333333333333,
+                "y": -102.66666666666666
+            }
+        },
+        "2A.tmx": {
+            "scale": 0.75,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": -248,
+                "y": 4
+            }
+        },
+        "3A.tmx": {
+            "scale": 0.75,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": -254.66666666666663,
+                "y": -122.66666666666663
+            }
+        },
+        "4A.tmx": {
+            "scale": 0.5,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 2,
+                "y": 14
+            }
+        },
+        "5A.tmx": {
+            "scale": 0.25,
+            "selectedLayer": 1,
+            "viewCenter": {
+                "x": -1040,
+                "y": -140
+            }
+        },
+        "Additional.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 2
+        },
+        "Level1.tmx": {
+            "scale": 0.75,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": -162.66666666666663,
+                "y": -726.6666666666665
+            }
+        },
+        "TileMap.tsx": {
+            "scaleInDock": 1.5,
+            "scaleInEditor": 3
+        },
+        "full spritesheet.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 2
+        },
+        "full tilemap.tsx": {
+            "scaleInDock": 1.5,
+            "scaleInEditor": 3
+        }
+    },
+    "last.imagePath": "C:/Users/admin/Documents/GitHub/Coding-Castle/Assets/SuperTiled2Unity/Imports",
+    "map.fixedSize": false,
+    "map.lastUsedFormat": "tmx",
+    "map.tileHeight": 16,
+    "map.tileWidth": 16,
+    "openFiles": [
+        "1A.tmx",
+        "2A.tmx",
+        "3A.tmx",
+        "4A.tmx",
+        "5A.tmx",
+        "full tilemap.tsx",
+        "full spritesheet.tsx"
+    ],
+    "project": "Tiles.tiled-project",
+    "recentFiles": [
+        "1A.tmx",
+        "2A.tmx",
+        "3A.tmx",
+        "4A.tmx",
+        "full spritesheet.tsx",
+        "full tilemap.tsx",
+        "5A.tmx",
+        "Level1.tmx",
+        "TileMap.tsx",
+        "Additional.tsx"
+    ],
+    "tileset.lastUsedFormat": "tsx",
+    "tileset.tileSize": {
+        "height": 16,
+        "width": 16
+    }
+}
