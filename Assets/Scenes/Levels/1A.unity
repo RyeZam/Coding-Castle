@@ -2344,6 +2344,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1822978693}
     m_Modifications:
+    - target: {fileID: 2630276636899430660, guid: 48182704e347e77489867434f33fba2d, type: 3}
+      propertyPath: m_SortingOrder
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 2630276636899430661, guid: 48182704e347e77489867434f33fba2d, type: 3}
       propertyPath: m_RootOrder
       value: 3
@@ -3979,6 +3983,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1822978693}
     m_Modifications:
+    - target: {fileID: 2630276636899430660, guid: 48182704e347e77489867434f33fba2d, type: 3}
+      propertyPath: m_SortingOrder
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 2630276636899430661, guid: 48182704e347e77489867434f33fba2d, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -4067,7 +4075,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 713611614124429907, guid: 81f63ac108bf12048aa1cec2c54335e5, type: 3}
       propertyPath: m_SortingOrder
-      value: -4
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 713611614124429907, guid: 81f63ac108bf12048aa1cec2c54335e5, type: 3}
       propertyPath: m_DetectChunkCullingBounds
@@ -8887,6 +8895,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1822978693}
     m_Modifications:
+    - target: {fileID: 2630276636899430660, guid: 48182704e347e77489867434f33fba2d, type: 3}
+      propertyPath: m_SortingOrder
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 2630276636899430661, guid: 48182704e347e77489867434f33fba2d, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -9417,6 +9429,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1822978693}
     m_Modifications:
+    - target: {fileID: 2630276636899430660, guid: 48182704e347e77489867434f33fba2d, type: 3}
+      propertyPath: m_SortingOrder
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 2630276636899430661, guid: 48182704e347e77489867434f33fba2d, type: 3}
       propertyPath: m_RootOrder
       value: 2
