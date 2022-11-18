@@ -3,48 +3,88 @@
         "height": 4300,
         "width": 2
     },
-    "activeFile": "5A.tmx",
+    "activeFile": "10A.tmx",
     "expandedProjectPaths": [
     ],
     "fileStates": {
+        "10A.tmx": {
+            "scale": 0.33,
+            "selectedLayer": 1,
+            "viewCenter": {
+                "x": -342.4242424242425,
+                "y": -551.5151515151515
+            }
+        },
         "1A.tmx": {
             "scale": 1.5,
-            "selectedLayer": 0,
+            "selectedLayer": 3,
             "viewCenter": {
-                "x": -383.3333333333333,
-                "y": -102.66666666666666
+                "x": 0.3333333333333286,
+                "y": -256.3333333333333
             }
         },
         "2A.tmx": {
             "scale": 0.75,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": -248,
-                "y": 4
+                "x": 0.6666666666666572,
+                "y": -255.33333333333331
             }
         },
         "3A.tmx": {
             "scale": 0.75,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": -254.66666666666663,
-                "y": -122.66666666666663
+                "x": 0.6666666666666572,
+                "y": -255.33333333333331
             }
         },
         "4A.tmx": {
             "scale": 0.5,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 2,
-                "y": 14
+                "x": 1,
+                "y": -255
             }
         },
         "5A.tmx": {
             "scale": 0.25,
             "selectedLayer": 1,
             "viewCenter": {
-                "x": -1040,
-                "y": -140
+                "x": -432,
+                "y": -336
+            }
+        },
+        "6A.tmx": {
+            "scale": 1,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": -327,
+                "y": -592
+            }
+        },
+        "7A.tmx": {
+            "scale": 1,
+            "selectedLayer": 1,
+            "viewCenter": {
+                "x": -245,
+                "y": 58
+            }
+        },
+        "8A.tmx": {
+            "scale": 1.5,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": -310,
+                "y": 66.66666666666664
+            }
+        },
+        "9A.tmx": {
+            "scale": 0.75,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": -332,
+                "y": 105.33333333333337
             }
         },
         "Additional.tsx": {
@@ -65,11 +105,11 @@
         },
         "full spritesheet.tsx": {
             "scaleInDock": 1,
-            "scaleInEditor": 2
+            "scaleInEditor": 4
         },
         "full tilemap.tsx": {
             "scaleInDock": 1.5,
-            "scaleInEditor": 3
+            "scaleInEditor": 4
         }
     },
     "last.imagePath": "C:/Users/admin/Documents/GitHub/Coding-Castle/Assets/SuperTiled2Unity/Imports",
@@ -78,26 +118,28 @@
     "map.tileHeight": 16,
     "map.tileWidth": 16,
     "openFiles": [
-        "1A.tmx",
-        "2A.tmx",
-        "3A.tmx",
-        "4A.tmx",
-        "5A.tmx",
+        "6A.tmx",
+        "7A.tmx",
+        "8A.tmx",
+        "9A.tmx",
+        "10A.tmx",
         "full tilemap.tsx",
         "full spritesheet.tsx"
     ],
     "project": "Tiles.tiled-project",
     "recentFiles": [
-        "1A.tmx",
-        "2A.tmx",
-        "3A.tmx",
-        "4A.tmx",
+        "6A.tmx",
+        "7A.tmx",
+        "8A.tmx",
+        "9A.tmx",
         "full spritesheet.tsx",
         "full tilemap.tsx",
+        "10A.tmx",
         "5A.tmx",
-        "Level1.tmx",
-        "TileMap.tsx",
-        "Additional.tsx"
+        "4A.tmx",
+        "3A.tmx",
+        "2A.tmx",
+        "1A.tmx"
     ],
     "tileset.lastUsedFormat": "tsx",
     "tileset.tileSize": {
