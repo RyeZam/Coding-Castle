@@ -144,4 +144,7 @@ MonoBehaviour:
   dialogue:
     name: Question
     sentences:
-    - "Sample Question\nA. \nB.\nC. "
+    - Sample Question
+  samples:
+    sentences:
+    - "A. \nB.\nC. "

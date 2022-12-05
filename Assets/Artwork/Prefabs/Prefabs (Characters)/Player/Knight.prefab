@@ -88,7 +88,6 @@ GameObject:
   - component: {fileID: 6189661131660317348}
   - component: {fileID: 4738708239834103292}
   - component: {fileID: -4373053580402369047}
-  - component: {fileID: 7985016958571158419}
   - component: {fileID: 4996393283766327959}
   - component: {fileID: 8767936903380884353}
   - component: {fileID: 1639560796929769853}
@@ -210,7 +209,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 1
-  collisionOffset: 0.05
+  collisionOffset: 0.005
   movementFilter:
     useTriggers: 0
     useLayerMask: 0
@@ -293,19 +292,6 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!114 &7985016958571158419
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3621911021195374023}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 16ae664b74f78834f9735006e83fea33, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  thrust: 2
 --- !u!114 &4996393283766327959
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -320,6 +306,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   healthBar: {fileID: 0}
   Respawn: 0
+  HP: 0
   maxHealth: 4
   currentHealth: 0
 --- !u!114 &8767936903380884353

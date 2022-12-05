@@ -4,14 +4,11 @@ using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
 
-public class DialogueManager : MonoBehaviour
+public class DManager : MonoBehaviour
 {
-
-    public TextMeshProUGUI nameText;
     public TextMeshProUGUI dialogueText;
 
     public Animator anim;
-    public Animator anim1;
 
     private Queue<string> sentences;
 
@@ -21,17 +18,14 @@ public class DialogueManager : MonoBehaviour
         sentences = new Queue<string>();
     }
 
-    public void StartDialogue(Dialogue dialogue)
+    public void StartDialogue(SampleCodes dialogue)
     {
         //Debug.Log("Starting Conversation with " + dialogue.name);
         anim.SetBool("isOpen", true);
-        anim1.SetBool("isOpen", true);
-
-        nameText.text = dialogue.name;
 
         sentences.Clear();
 
-        foreach(string sentence in dialogue.sentences)
+        foreach (string sentence in dialogue.sentences)
         {
             sentences.Enqueue(sentence);
         }
@@ -53,19 +47,19 @@ public class DialogueManager : MonoBehaviour
         StartCoroutine(TypeSentence(sentence));
     }
 
-    IEnumerator TypeSentence (string sentence)
+    IEnumerator TypeSentence(string sentence)
     {
         dialogueText.text = "";
-        foreach(char letter in sentence.ToCharArray()){
+        foreach (char letter in sentence.ToCharArray())
+        {
             dialogueText.text += letter;
             yield return null;
         }
     }
-    
+
     void EndDialogue()
     {
         anim.SetBool("isOpen", false);
-        anim1.SetBool("isOpen", false);
     }
 
 }

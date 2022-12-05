@@ -3,7 +3,7 @@
         "height": 4300,
         "width": 2
     },
-    "activeFile": "10A.tmx",
+    "activeFile": "full tilemap.tsx",
     "expandedProjectPaths": [
     ],
     "fileStates": {
@@ -59,32 +59,32 @@
             "scale": 1,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": -327,
-                "y": -592
+                "x": 0.5,
+                "y": -512.5
             }
         },
         "7A.tmx": {
             "scale": 1,
             "selectedLayer": 1,
             "viewCenter": {
-                "x": -245,
-                "y": 58
+                "x": 0.5,
+                "y": -511.5
             }
         },
         "8A.tmx": {
             "scale": 1.5,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": -310,
-                "y": 66.66666666666664
+                "x": 0.3333333333333286,
+                "y": -511.66666666666663
             }
         },
         "9A.tmx": {
             "scale": 0.75,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": -332,
-                "y": 105.33333333333337
+                "x": 0.6666666666666572,
+                "y": -511.33333333333326
             }
         },
         "Additional.tsx": {
@@ -132,9 +132,9 @@
         "7A.tmx",
         "8A.tmx",
         "9A.tmx",
+        "10A.tmx",
         "full spritesheet.tsx",
         "full tilemap.tsx",
-        "10A.tmx",
         "5A.tmx",
         "4A.tmx",
         "3A.tmx",

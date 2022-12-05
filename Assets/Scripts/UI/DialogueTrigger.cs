@@ -5,6 +5,7 @@ using UnityEngine;
 public class DialogueTrigger : MonoBehaviour
 {
     public Dialogue dialogue;
+    public SampleCodes samples;
 
     private void OnTriggerEnter2D(Collider2D other)
     {
@@ -17,5 +18,6 @@ public class DialogueTrigger : MonoBehaviour
     public void TriggerDialogue()
     {
         FindObjectOfType<DialogueManager>().StartDialogue(dialogue);
+        FindObjectOfType<DManager>().StartDialogue(samples);
     }
 }

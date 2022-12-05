@@ -9,7 +9,7 @@ public class Inventory : MonoBehaviour
     public TextMeshProUGUI counter;
 
     public static int count = 0;
-    public static float enCount = 0;
+    public static int enCount = 0;
     public static int chest = 0;
     public static float currentHP;
 

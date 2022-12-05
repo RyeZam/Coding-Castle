@@ -19,7 +19,7 @@ public class BattleSystem : MonoBehaviour
     Unit enemyUnit;
 
     public TMPro.TMP_Text dialogueText;
-    
+
     public BattleHUD playerHUD;
     public BattleHUD enemyHUD;
 
@@ -28,20 +28,20 @@ public class BattleSystem : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        state = BattleState.START;      
+        state = BattleState.START;
         StartCoroutine(SetupBattle());
     }
 
     IEnumerator SetupBattle()
     {
-        Debug.Log("Setting up"); 
+        Debug.Log("Setting up");
         GameObject playerGO = Instantiate(playerPrefab, playerBattleStation);
         playerUnit = playerGO.GetComponent<Unit>();
         GameObject enemyGO = Instantiate(enemyPrefab, enemyBattleStation);
         enemyUnit = enemyGO.GetComponent<Unit>();
 
         //playerUnit.currentHP = Inventory.currentHP;
-        dialogueText.text = "A scary "+ enemyUnit.unitName + " approaches...";
+        dialogueText.text = "A scary " + enemyUnit.unitName + " approaches...";
         playerHUD.SetHUD(playerUnit);
         enemyHUD.SetHUD(enemyUnit);
 
@@ -114,9 +114,16 @@ public class BattleSystem : MonoBehaviour
         if (state == BattleState.WON)
         {
             dialogueText.text = "You slain the " + enemyUnit.unitName + " !";
-        }else if (state == BattleState.LOST){
+        } else if (state == BattleState.LOST) {
             dialogueText.text = "You were defeated.";
         }
+        StartCoroutine(NextLevel());
+    }
+
+    IEnumerator NextLevel()
+    {
+        yield return new WaitForSeconds(2.5f);
+        FindObjectOfType<SceneMove>().LoadNextScene();
     }
 
     void PlayerTurn()

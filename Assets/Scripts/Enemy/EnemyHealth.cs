@@ -8,7 +8,7 @@ public class EnemyHealth : MonoBehaviour
     private Animator animate;
     //public int enCount = 0;
     //public GameObject player;
-    public float PointstoGive;
+    public int PointstoGive;
 
     public float Health
     {
