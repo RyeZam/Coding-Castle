@@ -19,22 +19,53 @@ public class BattleSystem : MonoBehaviour
     Unit enemyUnit;
 
     public TMPro.TMP_Text dialogueText;
+    public TMPro.TMP_Text hintText;
 
     public BattleHUD playerHUD;
     public BattleHUD enemyHUD;
 
+    public bool yes = true;
+
     private string inputLine;
+    private string x;
+    private float timer = 0f;
+    private bool yup = false;
+    
+
+    private Queue<string> inputs;
+    public SampleCodes answers;
 
     // Start is called before the first frame update
     void Start()
-    {
+    {   
+        inputs = new Queue<string>();
         state = BattleState.START;
         StartCoroutine(SetupBattle());
+    }
+
+    private void Update()
+    {
+        timer += Time.deltaTime;
+        if (timer > 2f)
+        {
+            yup = true;
+        }
+    }
+
+    public void Setup(SampleCodes dialogue)
+    {
+        inputs.Clear();
+
+        foreach (string sentence in dialogue.sentences)
+        {
+            inputs.Enqueue(sentence);
+        }
     }
 
     IEnumerator SetupBattle()
     {
         Debug.Log("Setting up");
+        Setup(answers);
         GameObject playerGO = Instantiate(playerPrefab, playerBattleStation);
         playerUnit = playerGO.GetComponent<Unit>();
         GameObject enemyGO = Instantiate(enemyPrefab, enemyBattleStation);
@@ -45,20 +76,33 @@ public class BattleSystem : MonoBehaviour
         playerHUD.SetHUD(playerUnit);
         enemyHUD.SetHUD(enemyUnit);
 
+        x = readString();
+
         yield return new WaitForSeconds(2.5f);
 
         state = BattleState.PLAYERTURN;
         PlayerTurn();
     }
 
-    public void readString(string s)
+    public string readString()
+    {
+        string rightInput = inputs.Dequeue();
+        return rightInput;
+    }
+
+    public void inputString(string s)
     {
         inputLine = s;
     }
 
+    public void inputClear()
+    {
+        inputLine = inputLine.Remove(0);
+    }
+
     IEnumerator PlayerAttack()
     {
-        if (inputLine == "print(Hello World)")
+        if (inputLine == x)
         {
             bool isDead = enemyUnit.TakeDamage(playerUnit.damage);
 
@@ -71,6 +115,18 @@ public class BattleSystem : MonoBehaviour
             yield return new WaitForSeconds(2.5f);
 
             playerUnit.isNotAttacking();
+            inputClear();
+
+            if (inputs.Count == 0)
+            {
+                state = BattleState.WON;
+            }
+            else
+            {
+                x = readString();
+            }
+                
+            yes = true;
 
             if (isDead)
             {
@@ -88,6 +144,7 @@ public class BattleSystem : MonoBehaviour
 
     IEnumerator EnemyTurn()
     {
+        yes = false;
         dialogueText.text = "Wrong Code! " + enemyUnit.unitName + " attacks!";
         enemyUnit.isAttacking();
         yield return new WaitForSeconds(1.5f);
@@ -129,6 +186,11 @@ public class BattleSystem : MonoBehaviour
     void PlayerTurn()
     {
         dialogueText.text = "Code to defeat the monster!";
+
+        if (yup == true)
+        {
+            hintText.text = "Here's your hint!";
+        }
     }
 
     public void OnAttackButton()

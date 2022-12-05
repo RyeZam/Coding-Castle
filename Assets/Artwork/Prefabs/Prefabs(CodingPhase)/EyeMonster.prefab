@@ -120,5 +120,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   unitName: Eye Monster
   damage: 4
-  maxHP: 2
-  currentHP: 2
+  maxHP: 4
+  currentHP: 4
