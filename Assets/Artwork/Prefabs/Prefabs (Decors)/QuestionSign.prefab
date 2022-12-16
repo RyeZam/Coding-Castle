@@ -126,9 +126,9 @@ CircleCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0.0022042384, y: -0.031740747}
   serializedVersion: 2
-  m_Radius: 0.106746
+  m_Radius: 0.101015076
 --- !u!114 &8774587602549960317
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -147,4 +147,4 @@ MonoBehaviour:
     - Sample Question
   samples:
     sentences:
-    - "A. \nB.\nC. "
+    - "A. \nB. \nC. "

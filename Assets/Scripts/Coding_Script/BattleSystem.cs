@@ -46,7 +46,7 @@ public class BattleSystem : MonoBehaviour
     private void Update()
     {
         timer += Time.deltaTime;
-        if (timer > 2f)
+        if (timer > 3.5f)
         {
             yup = true;
         }
@@ -104,6 +104,8 @@ public class BattleSystem : MonoBehaviour
     {
         if (inputLine == x)
         {
+            yes = true;
+
             bool isDead = enemyUnit.TakeDamage(playerUnit.damage);
 
             playerUnit.isAttacking();
@@ -125,7 +127,7 @@ public class BattleSystem : MonoBehaviour
             {
                 x = readString();
             }
-                
+
             yes = true;
 
             if (isDead)
@@ -189,7 +191,7 @@ public class BattleSystem : MonoBehaviour
 
         if (yup == true)
         {
-            hintText.text = "Here's your hint!";
+            hintText.text = "Hint";
         }
     }
 

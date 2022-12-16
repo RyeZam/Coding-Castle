@@ -330,7 +330,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2630276636899430661, guid: 48182704e347e77489867434f33fba2d, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -5.152
+      value: -5.197
       objectReference: {fileID: 0}
     - target: {fileID: 2630276636899430661, guid: 48182704e347e77489867434f33fba2d, type: 3}
       propertyPath: m_LocalPosition.z
@@ -461,7 +461,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2369522034100369690, guid: 1d78fe57e5ae38f4fa5f4d454922c7a4, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1.9152336
+      value: -1.826
       objectReference: {fileID: 0}
     - target: {fileID: 2369522034100369690, guid: 1d78fe57e5ae38f4fa5f4d454922c7a4, type: 3}
       propertyPath: m_LocalPosition.z
@@ -1104,7 +1104,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ffefdeb1fbc03764aad79efa18ac181a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  virtualCamera: {fileID: 1754549572}
+  virtualCamera: {fileID: 727271324}
 --- !u!1001 &125396998
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1812,11 +1812,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 6146920519209301589, guid: 29c6fe26dda702d4b9f36f0c77dc609f, type: 3}
       propertyPath: samples.sentences.Array.size
-      value: 10
+      value: 24
       objectReference: {fileID: 0}
     - target: {fileID: 6146920519209301589, guid: 29c6fe26dda702d4b9f36f0c77dc609f, type: 3}
       propertyPath: dialogue.sentences.Array.size
-      value: 12
+      value: 26
       objectReference: {fileID: 0}
     - target: {fileID: 6146920519209301589, guid: 29c6fe26dda702d4b9f36f0c77dc609f, type: 3}
       propertyPath: samples.sentences.Array.data[0]
@@ -1824,76 +1824,240 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6146920519209301589, guid: 29c6fe26dda702d4b9f36f0c77dc609f, type: 3}
       propertyPath: samples.sentences.Array.data[3]
-      value: "if 7>4:\n    print(\"7 is greater than 4\")"
+      value: import array as arr
       objectReference: {fileID: 0}
     - target: {fileID: 6146920519209301589, guid: 29c6fe26dda702d4b9f36f0c77dc609f, type: 3}
       propertyPath: samples.sentences.Array.data[4]
       value: 
       objectReference: {fileID: 0}
     - target: {fileID: 6146920519209301589, guid: 29c6fe26dda702d4b9f36f0c77dc609f, type: 3}
+      propertyPath: samples.sentences.Array.data[5]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 6146920519209301589, guid: 29c6fe26dda702d4b9f36f0c77dc609f, type: 3}
+      propertyPath: samples.sentences.Array.data[8]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 6146920519209301589, guid: 29c6fe26dda702d4b9f36f0c77dc609f, type: 3}
       propertyPath: samples.sentences.Array.data[9]
-      value: '#This is a python comment'
+      value: toys = ["car", "doll", "robot"]
       objectReference: {fileID: 0}
     - target: {fileID: 6146920519209301589, guid: 29c6fe26dda702d4b9f36f0c77dc609f, type: 3}
       propertyPath: dialogue.sentences.Array.data[0]
-      value: Hello There! Welcome to your first lesson!
+      value: I see you fought hard to reach this far Mr. Knight! Congratulations
+        on reaching level 11!
       objectReference: {fileID: 0}
     - target: {fileID: 6146920519209301589, guid: 29c6fe26dda702d4b9f36f0c77dc609f, type: 3}
       propertyPath: dialogue.sentences.Array.data[1]
-      value: In this first lesson, we will be talking about the Python Programming
-        Syntax.
+      value: In the previous lessons, we learned how to utilize data types, operators
+        and statements into creating a looping program.
       objectReference: {fileID: 0}
     - target: {fileID: 6146920519209301589, guid: 29c6fe26dda702d4b9f36f0c77dc609f, type: 3}
       propertyPath: dialogue.sentences.Array.data[2]
-      value: Python is a type of programming language in which indentation has actually
-        a meaningful syntax function.
+      value: 'In this lesson, we will learn about the collection of data/items that
+        is stored in a single variable! '
       objectReference: {fileID: 0}
     - target: {fileID: 6146920519209301589, guid: 29c6fe26dda702d4b9f36f0c77dc609f, type: 3}
       propertyPath: dialogue.sentences.Array.data[3]
-      value: Python uses indentation to indicate a block of code
+      value: These are called arrays, they can hold many values under a single name,
+        and you can access the values by referring to an index number.
       objectReference: {fileID: 0}
     - target: {fileID: 6146920519209301589, guid: 29c6fe26dda702d4b9f36f0c77dc609f, type: 3}
       propertyPath: dialogue.sentences.Array.data[4]
-      value: What happens if you skip indentation? Python will give you a syntax
-        error.
+      value: Python has no built-in support for arrays but you can use them if you
+        import a package to your program.
       objectReference: {fileID: 0}
     - target: {fileID: 6146920519209301589, guid: 29c6fe26dda702d4b9f36f0c77dc609f, type: 3}
       propertyPath: dialogue.sentences.Array.data[5]
-      value: It doesn't matter how many spaces you put, although it has to be atleast
-        one.
+      value: 'You can be using another form of arrays if you don''t want to import
+        arrays into your program, Python has 4 built-in collection of data types:
+        list, tuple, dictionary, and set.'
       objectReference: {fileID: 0}
     - target: {fileID: 6146920519209301589, guid: 29c6fe26dda702d4b9f36f0c77dc609f, type: 3}
       propertyPath: dialogue.sentences.Array.data[6]
-      value: You also need to use the same number of indents in the same block of
-        code.
+      value: For this discussion, we will be using list for it has the most similar
+        syntax in Python's array.
       objectReference: {fileID: 0}
     - target: {fileID: 6146920519209301589, guid: 29c6fe26dda702d4b9f36f0c77dc609f, type: 3}
       propertyPath: dialogue.sentences.Array.data[7]
-      value: Next we will be talking about variables, and how Python only creates
-        them when assigned a value.
+      value: First let us look into the list as arrays, and then we will be discussing
+        the actual arrays through importing.
       objectReference: {fileID: 0}
     - target: {fileID: 6146920519209301589, guid: 29c6fe26dda702d4b9f36f0c77dc609f, type: 3}
       propertyPath: dialogue.sentences.Array.data[8]
-      value: You will learn more about this on the following lesson. Next is the
-        commenting capability of Python.
+      value: List items are ordered, changeable, and allow duplicate values. Lists
+        are also indexed, with 0 being first and 1 next, and so on.
       objectReference: {fileID: 0}
     - target: {fileID: 6146920519209301589, guid: 29c6fe26dda702d4b9f36f0c77dc609f, type: 3}
       propertyPath: dialogue.sentences.Array.data[9]
-      value: Comments start with a #, and Python will render the rest of the line
-        as a comment.
+      value: 'Lists are created using square brackets:'
+      objectReference: {fileID: 0}
+    - target: {fileID: 6146920519209301589, guid: 29c6fe26dda702d4b9f36f0c77dc609f, type: 3}
+      propertyPath: samples.sentences.Array.data[10]
+      value: 'toys = ["car", "doll", "robot"]
+
+        x = toys[0]
+
+        print(x)
+
+        OUTPUT:
+        car'
+      objectReference: {fileID: 0}
+    - target: {fileID: 6146920519209301589, guid: 29c6fe26dda702d4b9f36f0c77dc609f, type: 3}
+      propertyPath: samples.sentences.Array.data[11]
+      value: 'toys = ["car", "doll", "robot"]
+
+        toys[0] = "plane"
+
+        x
+        = toys[0]
+
+        print(x)
+
+        OUTPUT: plane'
+      objectReference: {fileID: 0}
+    - target: {fileID: 6146920519209301589, guid: 29c6fe26dda702d4b9f36f0c77dc609f, type: 3}
+      propertyPath: samples.sentences.Array.data[12]
+      value: toys.append("plushy")
+      objectReference: {fileID: 0}
+    - target: {fileID: 6146920519209301589, guid: 29c6fe26dda702d4b9f36f0c77dc609f, type: 3}
+      propertyPath: samples.sentences.Array.data[13]
+      value: "for x in toys:\n   print(x)"
+      objectReference: {fileID: 0}
+    - target: {fileID: 6146920519209301589, guid: 29c6fe26dda702d4b9f36f0c77dc609f, type: 3}
+      propertyPath: samples.sentences.Array.data[14]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 6146920519209301589, guid: 29c6fe26dda702d4b9f36f0c77dc609f, type: 3}
+      propertyPath: samples.sentences.Array.data[15]
+      value: 'toys.pop(2)                  references index
+
+        toys.remove("doll")   
+        references element
+
+        del toys[2]                   references index'
+      objectReference: {fileID: 0}
+    - target: {fileID: 6146920519209301589, guid: 29c6fe26dda702d4b9f36f0c77dc609f, type: 3}
+      propertyPath: samples.sentences.Array.data[18]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 6146920519209301589, guid: 29c6fe26dda702d4b9f36f0c77dc609f, type: 3}
+      propertyPath: samples.sentences.Array.data[19]
+      value: 'import array as arr
+
+        a = arr.array("i", [1, 2, 3])'
+      objectReference: {fileID: 0}
+    - target: {fileID: 6146920519209301589, guid: 29c6fe26dda702d4b9f36f0c77dc609f, type: 3}
+      propertyPath: samples.sentences.Array.data[20]
+      value: "import array as arr\na = arr.array(\"i\", [1, 2, 3])\na.insert(1, 4)\nfor
+        i in a:\n   print(i)"
+      objectReference: {fileID: 0}
+    - target: {fileID: 6146920519209301589, guid: 29c6fe26dda702d4b9f36f0c77dc609f, type: 3}
+      propertyPath: samples.sentences.Array.data[21]
+      value: 'import array as arr
+
+        a = arr.array("i", [1, 2, 3])
+
+        print(a[2])
+
+        OUTPUT:
+        3'
+      objectReference: {fileID: 0}
+    - target: {fileID: 6146920519209301589, guid: 29c6fe26dda702d4b9f36f0c77dc609f, type: 3}
+      propertyPath: samples.sentences.Array.data[22]
+      value: 'arr[2] = 7
+
+        arr.pop(2)
+
+        arr.remove(1)
+
+        del
+        arr[1]'
+      objectReference: {fileID: 0}
+    - target: {fileID: 6146920519209301589, guid: 29c6fe26dda702d4b9f36f0c77dc609f, type: 3}
+      propertyPath: samples.sentences.Array.data[23]
+      value: print(arr.index(2))
       objectReference: {fileID: 0}
     - target: {fileID: 6146920519209301589, guid: 29c6fe26dda702d4b9f36f0c77dc609f, type: 3}
       propertyPath: dialogue.sentences.Array.data[10]
-      value: Now, that the first lesson is finished, you need to answer the quiz
-        to proceed to the next part.
+      value: 'Accessing any element of the created array is done by refering to its
+        index number: (remember that index numbers start from 0)'
       objectReference: {fileID: 0}
     - target: {fileID: 6146920519209301589, guid: 29c6fe26dda702d4b9f36f0c77dc609f, type: 3}
       propertyPath: dialogue.sentences.Array.data[11]
-      value: Good luck Mr. Knight!
+      value: 'You can also modify certain elements of the array by using its index
+        number:'
       objectReference: {fileID: 0}
     - target: {fileID: 6146920519209301589, guid: 29c6fe26dda702d4b9f36f0c77dc609f, type: 3}
       propertyPath: dialogue.sentences.Array.data[12]
-      value: 
+      value: 'You can add an item into the array using append() method:'
+      objectReference: {fileID: 0}
+    - target: {fileID: 6146920519209301589, guid: 29c6fe26dda702d4b9f36f0c77dc609f, type: 3}
+      propertyPath: dialogue.sentences.Array.data[13]
+      value: 'As previously taught last lesson, you can use for loops in displaying
+        each elements/items inside the array:'
+      objectReference: {fileID: 0}
+    - target: {fileID: 6146920519209301589, guid: 29c6fe26dda702d4b9f36f0c77dc609f, type: 3}
+      propertyPath: dialogue.sentences.Array.data[14]
+      value: You can remove items from an array using the pop() method, by using
+        the remove() method, or to use del() method.
+      objectReference: {fileID: 0}
+    - target: {fileID: 6146920519209301589, guid: 29c6fe26dda702d4b9f36f0c77dc609f, type: 3}
+      propertyPath: dialogue.sentences.Array.data[15]
+      value: Their difference is quite little actually, pop() returns the removed
+        value, remove() removes the first occurence of the referenced item, and de()
+        completely deletes the item from the list.
+      objectReference: {fileID: 0}
+    - target: {fileID: 6146920519209301589, guid: 29c6fe26dda702d4b9f36f0c77dc609f, type: 3}
+      propertyPath: dialogue.sentences.Array.data[16]
+      value: Now let us talk about the actual arrays that is only eligible to access
+        once we had imported it to  our code.
+      objectReference: {fileID: 0}
+    - target: {fileID: 6146920519209301589, guid: 29c6fe26dda702d4b9f36f0c77dc609f, type: 3}
+      propertyPath: dialogue.sentences.Array.data[17]
+      value: Array can be handled in Python by a module named array. They can be
+        useful when we have to manipulate only a specific data type values.
+      objectReference: {fileID: 0}
+    - target: {fileID: 6146920519209301589, guid: 29c6fe26dda702d4b9f36f0c77dc609f, type: 3}
+      propertyPath: dialogue.sentences.Array.data[18]
+      value: The major difference between using list and arrays in Python is that
+        you cannot restrict lists elements into one data type, unlike array does.
+      objectReference: {fileID: 0}
+    - target: {fileID: 6146920519209301589, guid: 29c6fe26dda702d4b9f36f0c77dc609f, type: 3}
+      propertyPath: dialogue.sentences.Array.data[19]
+      value: If you create arrays using the array module, all elements of the array
+        must be of the same type. Using the syntax array(data_type, value_list),
+        we can create arrays.
+      objectReference: {fileID: 0}
+    - target: {fileID: 6146920519209301589, guid: 29c6fe26dda702d4b9f36f0c77dc609f, type: 3}
+      propertyPath: dialogue.sentences.Array.data[20]
+      value: You can add an item into the array using the insert() method which is
+        similar to the append() method. The only difference is that append() add
+        the items on the end of the list.
+      objectReference: {fileID: 0}
+    - target: {fileID: 6146920519209301589, guid: 29c6fe26dda702d4b9f36f0c77dc609f, type: 3}
+      propertyPath: dialogue.sentences.Array.data[21]
+      value: 'Accessin elements of an array requires you to know the index and enclose
+        them in square brackets:'
+      objectReference: {fileID: 0}
+    - target: {fileID: 6146920519209301589, guid: 29c6fe26dda702d4b9f36f0c77dc609f, type: 3}
+      propertyPath: dialogue.sentences.Array.data[22]
+      value: The same methods that removes and updates items to the list will work
+        the same in the arrays.
+      objectReference: {fileID: 0}
+    - target: {fileID: 6146920519209301589, guid: 29c6fe26dda702d4b9f36f0c77dc609f, type: 3}
+      propertyPath: dialogue.sentences.Array.data[23]
+      value: Python arrays have this method called index() that returns the index
+        of the first occurrence of value mentioned in arguments. This is useful if
+        you want to find where the element is.
+      objectReference: {fileID: 0}
+    - target: {fileID: 6146920519209301589, guid: 29c6fe26dda702d4b9f36f0c77dc609f, type: 3}
+      propertyPath: dialogue.sentences.Array.data[24]
+      value: 'That is all for Python arrays! I hope you learned a lot in this lesson. '
+      objectReference: {fileID: 0}
+    - target: {fileID: 6146920519209301589, guid: 29c6fe26dda702d4b9f36f0c77dc609f, type: 3}
+      propertyPath: dialogue.sentences.Array.data[25]
+      value: See you on the next one! Good luck!
       objectReference: {fileID: 0}
     - target: {fileID: 9194797209832329224, guid: 29c6fe26dda702d4b9f36f0c77dc609f, type: 3}
       propertyPath: m_Name
@@ -1975,7 +2139,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2369522034100369690, guid: 1d78fe57e5ae38f4fa5f4d454922c7a4, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.6437664
+      value: 0.76600003
       objectReference: {fileID: 0}
     - target: {fileID: 2369522034100369690, guid: 1d78fe57e5ae38f4fa5f4d454922c7a4, type: 3}
       propertyPath: m_LocalPosition.z
@@ -2425,15 +2589,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8884164670249325463, guid: 4b465d942bc587d4995609f7ed9daace, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 351.7
+      value: 419.45
       objectReference: {fileID: 0}
     - target: {fileID: 8884164670249325463, guid: 4b465d942bc587d4995609f7ed9daace, type: 3}
       propertyPath: m_SizeDelta.y
-      value: 104.6
+      value: 141.92
+      objectReference: {fileID: 0}
+    - target: {fileID: 8884164670249325463, guid: 4b465d942bc587d4995609f7ed9daace, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -0.52
       objectReference: {fileID: 0}
     - target: {fileID: 8884164670249325463, guid: 4b465d942bc587d4995609f7ed9daace, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -3.4
+      value: 5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4b465d942bc587d4995609f7ed9daace, type: 3}
@@ -3050,7 +3218,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2369522034100369690, guid: 1d78fe57e5ae38f4fa5f4d454922c7a4, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.64976645
+      value: 0.772
       objectReference: {fileID: 0}
     - target: {fileID: 2369522034100369690, guid: 1d78fe57e5ae38f4fa5f4d454922c7a4, type: 3}
       propertyPath: m_LocalPosition.z
@@ -3611,7 +3779,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2369522034100369690, guid: 1d78fe57e5ae38f4fa5f4d454922c7a4, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 6.3819995
+      value: 6.511
       objectReference: {fileID: 0}
     - target: {fileID: 2369522034100369690, guid: 1d78fe57e5ae38f4fa5f4d454922c7a4, type: 3}
       propertyPath: m_LocalPosition.z
@@ -4184,7 +4352,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2369522034100369690, guid: 1d78fe57e5ae38f4fa5f4d454922c7a4, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1.9032335
+      value: -1.8140001
       objectReference: {fileID: 0}
     - target: {fileID: 2369522034100369690, guid: 1d78fe57e5ae38f4fa5f4d454922c7a4, type: 3}
       propertyPath: m_LocalPosition.z
@@ -4369,7 +4537,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2369522034100369690, guid: 1d78fe57e5ae38f4fa5f4d454922c7a4, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.6437664
+      value: 0.76600003
       objectReference: {fileID: 0}
     - target: {fileID: 2369522034100369690, guid: 1d78fe57e5ae38f4fa5f4d454922c7a4, type: 3}
       propertyPath: m_LocalPosition.z
@@ -4749,15 +4917,17 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8774587602549960317, guid: ff3fbd33686854a42a9f9cae724b2394, type: 3}
       propertyPath: samples.sentences.Array.data[0]
-      value: 'A. $
+      value: 'A. add()
 
-        B. /*
+        B. insert()
 
-        C.  #'
+        C. append()
+
+        D. sum()'
       objectReference: {fileID: 0}
     - target: {fileID: 8774587602549960317, guid: ff3fbd33686854a42a9f9cae724b2394, type: 3}
       propertyPath: dialogue.sentences.Array.data[0]
-      value: How do you comment a line in Python?
+      value: This method adds a new value into the array at the end.
       objectReference: {fileID: 0}
     - target: {fileID: 9028537640560769987, guid: ff3fbd33686854a42a9f9cae724b2394, type: 3}
       propertyPath: m_Name
@@ -5348,6 +5518,86 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1001 &602014646
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 2129641471}
+    m_Modifications:
+    - target: {fileID: 508347536204409909, guid: ff3fbd33686854a42a9f9cae724b2394, type: 3}
+      propertyPath: m_RootOrder
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 508347536204409909, guid: ff3fbd33686854a42a9f9cae724b2394, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.408
+      objectReference: {fileID: 0}
+    - target: {fileID: 508347536204409909, guid: ff3fbd33686854a42a9f9cae724b2394, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 11.179
+      objectReference: {fileID: 0}
+    - target: {fileID: 508347536204409909, guid: ff3fbd33686854a42a9f9cae724b2394, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.13806641
+      objectReference: {fileID: 0}
+    - target: {fileID: 508347536204409909, guid: ff3fbd33686854a42a9f9cae724b2394, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 508347536204409909, guid: ff3fbd33686854a42a9f9cae724b2394, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 508347536204409909, guid: ff3fbd33686854a42a9f9cae724b2394, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 508347536204409909, guid: ff3fbd33686854a42a9f9cae724b2394, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 508347536204409909, guid: ff3fbd33686854a42a9f9cae724b2394, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 508347536204409909, guid: ff3fbd33686854a42a9f9cae724b2394, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 508347536204409909, guid: ff3fbd33686854a42a9f9cae724b2394, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8774587602549960317, guid: ff3fbd33686854a42a9f9cae724b2394, type: 3}
+      propertyPath: samples.sentences.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8774587602549960317, guid: ff3fbd33686854a42a9f9cae724b2394, type: 3}
+      propertyPath: samples.sentences.Array.data[0]
+      value: 'A. each
+
+        B. for
+
+        C. while
+
+        D. if-else'
+      objectReference: {fileID: 0}
+    - target: {fileID: 8774587602549960317, guid: ff3fbd33686854a42a9f9cae724b2394, type: 3}
+      propertyPath: dialogue.sentences.Array.data[0]
+      value: What loop is used for going through each elements of an array?
+      objectReference: {fileID: 0}
+    - target: {fileID: 9028537640560769987, guid: ff3fbd33686854a42a9f9cae724b2394, type: 3}
+      propertyPath: m_Name
+      value: QuestionSign (4)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: ff3fbd33686854a42a9f9cae724b2394, type: 3}
+--- !u!4 &602014647 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 508347536204409909, guid: ff3fbd33686854a42a9f9cae724b2394, type: 3}
+  m_PrefabInstance: {fileID: 602014646}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &604528238
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5369,11 +5619,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2369522034100369690, guid: 1d78fe57e5ae38f4fa5f4d454922c7a4, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 2.129
+      value: 2.1164644
       objectReference: {fileID: 0}
     - target: {fileID: 2369522034100369690, guid: 1d78fe57e5ae38f4fa5f4d454922c7a4, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 3.061864
+      value: 3.1600003
       objectReference: {fileID: 0}
     - target: {fileID: 2369522034100369690, guid: 1d78fe57e5ae38f4fa5f4d454922c7a4, type: 3}
       propertyPath: m_LocalPosition.z
@@ -5967,11 +6217,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2369522034100369690, guid: 1d78fe57e5ae38f4fa5f4d454922c7a4, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 1.3475355
+      value: 1.3349999
       objectReference: {fileID: 0}
     - target: {fileID: 2369522034100369690, guid: 1d78fe57e5ae38f4fa5f4d454922c7a4, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 3.061864
+      value: 3.1600003
       objectReference: {fileID: 0}
     - target: {fileID: 2369522034100369690, guid: 1d78fe57e5ae38f4fa5f4d454922c7a4, type: 3}
       propertyPath: m_LocalPosition.z
@@ -6037,7 +6287,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2369522034100369690, guid: 1d78fe57e5ae38f4fa5f4d454922c7a4, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 3.2157662
+      value: 3.327
       objectReference: {fileID: 0}
     - target: {fileID: 2369522034100369690, guid: 1d78fe57e5ae38f4fa5f4d454922c7a4, type: 3}
       propertyPath: m_LocalPosition.z
@@ -6161,11 +6411,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2369522034100369690, guid: 1d78fe57e5ae38f4fa5f4d454922c7a4, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.5445355
+      value: 0.532
       objectReference: {fileID: 0}
     - target: {fileID: 2369522034100369690, guid: 1d78fe57e5ae38f4fa5f4d454922c7a4, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 3.0608635
+      value: 3.159
       objectReference: {fileID: 0}
     - target: {fileID: 2369522034100369690, guid: 1d78fe57e5ae38f4fa5f4d454922c7a4, type: 3}
       propertyPath: m_LocalPosition.z
@@ -6584,7 +6834,7 @@ GameObject:
   - component: {fileID: 727271327}
   - component: {fileID: 727271326}
   m_Layer: 0
-  m_Name: CM vcam7
+  m_Name: CM vcam9
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7984,7 +8234,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2369522034100369690, guid: 1d78fe57e5ae38f4fa5f4d454922c7a4, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 6.3910003
+      value: 6.520001
       objectReference: {fileID: 0}
     - target: {fileID: 2369522034100369690, guid: 1d78fe57e5ae38f4fa5f4d454922c7a4, type: 3}
       propertyPath: m_LocalPosition.z
@@ -9008,7 +9258,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2369522034100369690, guid: 1d78fe57e5ae38f4fa5f4d454922c7a4, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 6.3819995
+      value: 6.511
       objectReference: {fileID: 0}
     - target: {fileID: 2369522034100369690, guid: 1d78fe57e5ae38f4fa5f4d454922c7a4, type: 3}
       propertyPath: m_LocalPosition.z
@@ -9203,7 +9453,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2369522034100369690, guid: 1d78fe57e5ae38f4fa5f4d454922c7a4, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 3.2107666
+      value: 3.3220003
       objectReference: {fileID: 0}
     - target: {fileID: 2369522034100369690, guid: 1d78fe57e5ae38f4fa5f4d454922c7a4, type: 3}
       propertyPath: m_LocalPosition.z
@@ -9332,7 +9582,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2630276636899430661, guid: 48182704e347e77489867434f33fba2d, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -2.59
+      value: -2.642
       objectReference: {fileID: 0}
     - target: {fileID: 2630276636899430661, guid: 48182704e347e77489867434f33fba2d, type: 3}
       propertyPath: m_LocalPosition.z
@@ -9654,7 +9904,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2369522034100369690, guid: 1d78fe57e5ae38f4fa5f4d454922c7a4, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 3.2157662
+      value: 3.327
       objectReference: {fileID: 0}
     - target: {fileID: 2369522034100369690, guid: 1d78fe57e5ae38f4fa5f4d454922c7a4, type: 3}
       propertyPath: m_LocalPosition.z
@@ -10242,7 +10492,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2630276636899430661, guid: 48182704e347e77489867434f33fba2d, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 2.529
+      value: 2.499
       objectReference: {fileID: 0}
     - target: {fileID: 2630276636899430661, guid: 48182704e347e77489867434f33fba2d, type: 3}
       propertyPath: m_LocalPosition.z
@@ -11772,7 +12022,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ffefdeb1fbc03764aad79efa18ac181a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  virtualCamera: {fileID: 1754549572}
+  virtualCamera: {fileID: 1573878452}
 --- !u!1001 &1302284497
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -12203,7 +12453,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2630276636899430661, guid: 48182704e347e77489867434f33fba2d, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 5.0925
+      value: 5.053
       objectReference: {fileID: 0}
     - target: {fileID: 2630276636899430661, guid: 48182704e347e77489867434f33fba2d, type: 3}
       propertyPath: m_LocalPosition.z
@@ -13938,7 +14188,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2369522034100369690, guid: 1d78fe57e5ae38f4fa5f4d454922c7a4, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1.9032335
+      value: -1.8140001
       objectReference: {fileID: 0}
     - target: {fileID: 2369522034100369690, guid: 1d78fe57e5ae38f4fa5f4d454922c7a4, type: 3}
       propertyPath: m_LocalPosition.z
@@ -14776,7 +15026,7 @@ GameObject:
   - component: {fileID: 1573878455}
   - component: {fileID: 1573878454}
   m_Layer: 0
-  m_Name: CM vcam7
+  m_Name: CM vcam11
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -15851,7 +16101,7 @@ GameObject:
   - component: {fileID: 1668938274}
   - component: {fileID: 1668938273}
   m_Layer: 0
-  m_Name: CM vcam8
+  m_Name: CM vcam10
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -16360,6 +16610,88 @@ Transform:
 Transform:
   m_CorrespondingSourceObject: {fileID: 493908309045151349, guid: f7d258d4b07aa0d4da55a68ae3861039, type: 3}
   m_PrefabInstance: {fileID: 1970150094}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1733591017
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 2129641471}
+    m_Modifications:
+    - target: {fileID: 508347536204409909, guid: ff3fbd33686854a42a9f9cae724b2394, type: 3}
+      propertyPath: m_RootOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 508347536204409909, guid: ff3fbd33686854a42a9f9cae724b2394, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.408
+      objectReference: {fileID: 0}
+    - target: {fileID: 508347536204409909, guid: ff3fbd33686854a42a9f9cae724b2394, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 8.666
+      objectReference: {fileID: 0}
+    - target: {fileID: 508347536204409909, guid: ff3fbd33686854a42a9f9cae724b2394, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.13806641
+      objectReference: {fileID: 0}
+    - target: {fileID: 508347536204409909, guid: ff3fbd33686854a42a9f9cae724b2394, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 508347536204409909, guid: ff3fbd33686854a42a9f9cae724b2394, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 508347536204409909, guid: ff3fbd33686854a42a9f9cae724b2394, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 508347536204409909, guid: ff3fbd33686854a42a9f9cae724b2394, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 508347536204409909, guid: ff3fbd33686854a42a9f9cae724b2394, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 508347536204409909, guid: ff3fbd33686854a42a9f9cae724b2394, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 508347536204409909, guid: ff3fbd33686854a42a9f9cae724b2394, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8774587602549960317, guid: ff3fbd33686854a42a9f9cae724b2394, type: 3}
+      propertyPath: samples.sentences.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8774587602549960317, guid: ff3fbd33686854a42a9f9cae724b2394, type: 3}
+      propertyPath: samples.sentences.Array.data[0]
+      value: 'A. same type
+
+        B. atleast two different types
+
+        C. different
+        types altogether
+
+        D. string type only'
+      objectReference: {fileID: 0}
+    - target: {fileID: 8774587602549960317, guid: ff3fbd33686854a42a9f9cae724b2394, type: 3}
+      propertyPath: dialogue.sentences.Array.data[0]
+      value: When you create an array, all elements of the array must be of what
+        type?
+      objectReference: {fileID: 0}
+    - target: {fileID: 9028537640560769987, guid: ff3fbd33686854a42a9f9cae724b2394, type: 3}
+      propertyPath: m_Name
+      value: QuestionSign (3)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: ff3fbd33686854a42a9f9cae724b2394, type: 3}
+--- !u!4 &1733591018 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 508347536204409909, guid: ff3fbd33686854a42a9f9cae724b2394, type: 3}
+  m_PrefabInstance: {fileID: 1733591017}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1743697012
 PrefabInstance:
@@ -17060,7 +17392,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2630276636899430661, guid: 48182704e347e77489867434f33fba2d, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.03
+      value: -0.069
       objectReference: {fileID: 0}
     - target: {fileID: 2630276636899430661, guid: 48182704e347e77489867434f33fba2d, type: 3}
       propertyPath: m_LocalPosition.z
@@ -18039,16 +18371,17 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8774587602549960317, guid: ff3fbd33686854a42a9f9cae724b2394, type: 3}
       propertyPath: samples.sentences.Array.data[0]
-      value: 'A. The code will run smoothly
+      value: 'A. Arrays
 
-        B. The code will have an error
+        B. Functions
 
-        C.
-        The machine will crash'
+        C. Pockets
+
+        D. Arreys'
       objectReference: {fileID: 0}
     - target: {fileID: 8774587602549960317, guid: ff3fbd33686854a42a9f9cae724b2394, type: 3}
       propertyPath: dialogue.sentences.Array.data[0]
-      value: What happens if you skip indentation?
+      value: This is a special variable that can hold multiple variables at once,
       objectReference: {fileID: 0}
     - target: {fileID: 9028537640560769987, guid: ff3fbd33686854a42a9f9cae724b2394, type: 3}
       propertyPath: m_Name
@@ -19572,15 +19905,17 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8774587602549960317, guid: ff3fbd33686854a42a9f9cae724b2394, type: 3}
       propertyPath: samples.sentences.Array.data[0]
-      value: 'A. Tabs
+      value: 'A. File
 
-        B. White Space
+        B. Note
 
-        C. Indent'
+        C. Variable
+
+        D. List'
       objectReference: {fileID: 0}
     - target: {fileID: 8774587602549960317, guid: ff3fbd33686854a42a9f9cae724b2394, type: 3}
       propertyPath: dialogue.sentences.Array.data[0]
-      value: It refers to the spaces at the beginning of a code line.
+      value: Python has no built-in array support, so what is used to replace arrays?
       objectReference: {fileID: 0}
     - target: {fileID: 9028537640560769987, guid: ff3fbd33686854a42a9f9cae724b2394, type: 3}
       propertyPath: m_Name
@@ -20474,6 +20809,8 @@ Transform:
   - {fileID: 2006964876}
   - {fileID: 1873990251}
   - {fileID: 553947275}
+  - {fileID: 1733591018}
+  - {fileID: 602014647}
   m_Father: {fileID: 0}
   m_RootOrder: 18
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}

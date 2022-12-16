@@ -10,13 +10,13 @@ GameObject:
   m_Component:
   - component: {fileID: 5415574034945728198}
   - component: {fileID: 140582650286880661}
-  - component: {fileID: 568169160882345475}
   - component: {fileID: 3609918792251847856}
   - component: {fileID: 8415295775493153272}
   - component: {fileID: -446568746973829948}
   - component: {fileID: -2065408334159420685}
   - component: {fileID: 9110995428406123673}
   - component: {fileID: 4679569513233331143}
+  - component: {fileID: 8297973389556809871}
   m_Layer: 0
   m_Name: Slime
   m_TagString: Enemy
@@ -91,27 +91,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!50 &568169160882345475
-Rigidbody2D:
-  serializedVersion: 4
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6328442925851499324}
-  m_BodyType: 1
-  m_Simulated: 1
-  m_UseFullKinematicContacts: 0
-  m_UseAutoMass: 0
-  m_Mass: 0.5
-  m_LinearDrag: 1
-  m_AngularDrag: 0.05
-  m_GravityScale: 0
-  m_Material: {fileID: 0}
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 4
 --- !u!114 &3609918792251847856
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -194,7 +173,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   PointstoGive: 1
-  health: 4
+  health: 2
 --- !u!58 &4679569513233331143
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -211,3 +190,24 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.09300017
+--- !u!50 &8297973389556809871
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6328442925851499324}
+  m_BodyType: 1
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0

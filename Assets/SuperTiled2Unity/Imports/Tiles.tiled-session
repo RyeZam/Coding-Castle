@@ -3,7 +3,7 @@
         "height": 4300,
         "width": 2
     },
-    "activeFile": "15A.tmx",
+    "activeFile": "8A.tmx",
     "expandedProjectPaths": [
     ],
     "fileStates": {
@@ -19,32 +19,32 @@
             "scale": 1,
             "selectedLayer": 1,
             "viewCenter": {
-                "x": -182,
-                "y": 203
+                "x": 0.5,
+                "y": -512.5
             }
         },
         "12A.tmx": {
             "scale": 0.5,
             "selectedLayer": 1,
             "viewCenter": {
-                "x": -292,
-                "y": -432
+                "x": 1,
+                "y": -511
             }
         },
         "13A.tmx": {
             "scale": 0.5,
             "selectedLayer": 1,
             "viewCenter": {
-                "x": -416,
-                "y": -1022
+                "x": -383,
+                "y": -511
             }
         },
         "14A.tmx": {
             "scale": 0.5,
             "selectedLayer": 1,
             "viewCenter": {
-                "x": 54,
-                "y": -856
+                "x": 1,
+                "y": -511
             }
         },
         "15A.tmx": {
@@ -113,10 +113,10 @@
         },
         "8A.tmx": {
             "scale": 1.5,
-            "selectedLayer": 0,
+            "selectedLayer": 1,
             "viewCenter": {
-                "x": 0.3333333333333286,
-                "y": -511.66666666666663
+                "x": -334.66666666666663,
+                "y": -134
             }
         },
         "9A.tmx": {
@@ -164,7 +164,8 @@
         "14A.tmx",
         "15A.tmx",
         "full tilemap.tsx",
-        "full spritesheet.tsx"
+        "full spritesheet.tsx",
+        "8A.tmx"
     ],
     "project": "Tiles.tiled-project",
     "recentFiles": [
@@ -172,12 +173,12 @@
         "12A.tmx",
         "13A.tmx",
         "14A.tmx",
-        "full spritesheet.tsx",
-        "full tilemap.tsx",
         "15A.tmx",
+        "full tilemap.tsx",
+        "full spritesheet.tsx",
+        "8A.tmx",
         "10A.tmx",
         "9A.tmx",
-        "8A.tmx",
         "7A.tmx",
         "6A.tmx"
     ],

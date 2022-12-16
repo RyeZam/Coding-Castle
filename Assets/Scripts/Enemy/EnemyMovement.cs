@@ -18,6 +18,7 @@ public class EnemyMovement : MonoBehaviour
     private Animator animate;
     private Vector2 movement;
     public Vector3 dir;
+    SpriteRenderer spriteRenderer;
 
     private bool isinChaseRange;
     private bool isinAttackRange;
@@ -27,6 +28,7 @@ public class EnemyMovement : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
         animate = GetComponent<Animator>();
         target = GameObject.FindWithTag("Player").transform;
+        spriteRenderer = GetComponent<SpriteRenderer>();
     }
 
     private void Update()
@@ -44,6 +46,15 @@ public class EnemyMovement : MonoBehaviour
         {
             animate.SetFloat("x", dir.x);
             animate.SetFloat("y", dir.y);
+
+            if (dir.x < 0)
+            {
+                spriteRenderer.flipX = true;
+            }
+            else if (dir.x > 0)
+            {
+                spriteRenderer.flipX = false;
+            }
         }
     }
 
