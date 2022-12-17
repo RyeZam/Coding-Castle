@@ -27,6 +27,7 @@ public class Damage : MonoBehaviour
             if (player != null)
             {
                 player.playerHealth -= attackDamage;
+                FindObjectOfType<PlayerHealth>().playerHit();
             }
         }
     }

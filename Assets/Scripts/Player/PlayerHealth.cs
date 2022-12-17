@@ -57,4 +57,9 @@ public class PlayerHealth : MonoBehaviour
         //player.transform.position = new Vector3(spawnPoint.position.x, spawnPoint.position.y, spawnPoint.position.z);
         SceneManager.LoadScene(Respawn);
     }
+
+    public void playerHit()
+    {
+        anim.SetTrigger("isHit");
+    }
 }

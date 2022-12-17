@@ -52,6 +52,7 @@ public class Weapon : MonoBehaviour
             if (enemy != null)
             {
                 enemy.Health -= damage;
+                FindObjectOfType<EnemyHealth>().enemyHit();
             }
         }
         else if (other.CompareTag("breakable"))

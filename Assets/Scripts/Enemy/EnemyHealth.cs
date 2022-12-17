@@ -46,6 +46,11 @@ public class EnemyHealth : MonoBehaviour
         Debug.Log("Enemy hit for" + damage);
     }*/
 
+    public void enemyHit()
+    {
+        animate.SetTrigger("isHit");
+    }
+
     public void Defeated()
     {
         animate.SetTrigger("Defeated");

@@ -285,9 +285,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   healthBar: {fileID: 0}
   Respawn: 0
-  HP: 0
+  HP: 4
   maxHealth: 4
-  currentHealth: 0
+  currentHealth: 4
 --- !u!114 &8767936903380884353
 MonoBehaviour:
   m_ObjectHideFlags: 0
