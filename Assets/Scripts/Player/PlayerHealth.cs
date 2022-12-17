@@ -10,7 +10,7 @@ public class PlayerHealth : MonoBehaviour
     public HealthBar healthBar;
     public int Respawn;
 
-    public float HP;
+    public static float HP;
 
     public float playerHealth
     {
