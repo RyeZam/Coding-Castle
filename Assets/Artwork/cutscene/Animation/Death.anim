@@ -6,7 +6,7 @@ AnimationClip:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Flyingeye-Death
+  m_Name: Death
   serializedVersion: 6
   m_Legacy: 0
   m_Compressed: 0
@@ -20,13 +20,13 @@ AnimationClip:
   m_PPtrCurves:
   - curve:
     - time: 0
-      value: {fileID: 2042719125, guid: 1d1cea353fa28104d90c8d08d4631cac, type: 3}
+      value: {fileID: -752336786, guid: 878dd9fee3b99a841893302815264ca4, type: 3}
     - time: 0.125
-      value: {fileID: 735979219, guid: 1d1cea353fa28104d90c8d08d4631cac, type: 3}
+      value: {fileID: -723027801, guid: 878dd9fee3b99a841893302815264ca4, type: 3}
     - time: 0.25
-      value: {fileID: -746998649, guid: 1d1cea353fa28104d90c8d08d4631cac, type: 3}
+      value: {fileID: 48958786, guid: 878dd9fee3b99a841893302815264ca4, type: 3}
     - time: 0.375
-      value: {fileID: -1309266885, guid: 1d1cea353fa28104d90c8d08d4631cac, type: 3}
+      value: {fileID: 1633411161, guid: 878dd9fee3b99a841893302815264ca4, type: 3}
     attribute: m_Sprite
     path: 
     classID: 212
@@ -46,10 +46,10 @@ AnimationClip:
       customType: 23
       isPPtrCurve: 1
     pptrCurveMapping:
-    - {fileID: 2042719125, guid: 1d1cea353fa28104d90c8d08d4631cac, type: 3}
-    - {fileID: 735979219, guid: 1d1cea353fa28104d90c8d08d4631cac, type: 3}
-    - {fileID: -746998649, guid: 1d1cea353fa28104d90c8d08d4631cac, type: 3}
-    - {fileID: -1309266885, guid: 1d1cea353fa28104d90c8d08d4631cac, type: 3}
+    - {fileID: -752336786, guid: 878dd9fee3b99a841893302815264ca4, type: 3}
+    - {fileID: -723027801, guid: 878dd9fee3b99a841893302815264ca4, type: 3}
+    - {fileID: 48958786, guid: 878dd9fee3b99a841893302815264ca4, type: 3}
+    - {fileID: 1633411161, guid: 878dd9fee3b99a841893302815264ca4, type: 3}
   m_AnimationClipSettings:
     serializedVersion: 2
     m_AdditiveReferencePoseClip: {fileID: 0}
