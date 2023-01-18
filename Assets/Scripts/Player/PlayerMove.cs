@@ -21,6 +21,7 @@ public class PlayerMove : MonoBehaviour
     public float collisionOffset = 0.05f;
     public ContactFilter2D movementFilter;
     public Weapon swordAttack;
+    public Vector2 export;
 
     Vector2 movementInput = Vector2.zero;
     SpriteRenderer spriteRenderer;
@@ -61,6 +62,8 @@ public class PlayerMove : MonoBehaviour
                 }
 
                 animator.SetBool("isMoving", success);
+                export = movementInput;
+                //export = GetComponent<GrabObject>().lookdir;
             }
             else
             {

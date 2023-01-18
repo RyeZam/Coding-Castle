@@ -9,6 +9,7 @@ TagManager:
   - Collectable
   - Teleporter
   - chest
+  - Pickup
   layers:
   - Default
   - TransparentFX
@@ -19,7 +20,7 @@ TagManager:
   - Player
   - Tile
   - TP
-  - 
+  - Objects
   - 
   - 
   - 

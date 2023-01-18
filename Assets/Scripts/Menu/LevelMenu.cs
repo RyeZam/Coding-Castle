@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class LevelMenu : MonoBehaviour
 {
@@ -63,5 +64,10 @@ public class LevelMenu : MonoBehaviour
             pageNum -= 1;
         }
         if (pageNum == 1) leftBtn.SetActive(false);
+    }
+    
+    public void goBack()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex -1);
     }
 }

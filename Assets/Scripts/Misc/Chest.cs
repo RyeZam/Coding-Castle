@@ -20,8 +20,9 @@ public class Chest : MonoBehaviour
 
     public void Open()
     {
-        anim.SetBool("isOpen", true);
         Inventory.chest++;
+        Store.lvl++;
+        anim.SetBool("isOpen", true);
     }
 
 }

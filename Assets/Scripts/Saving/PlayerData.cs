@@ -5,14 +5,16 @@ using UnityEngine;
 [System.Serializable]
 public class PlayerData
 {
-    public string level;
+    public int levelIndex;
     public float health;
     public float[] position;
+    public int levelAt;
 
-    public PlayerData (Inventory player)
+    public PlayerData (Store player)
     {
-        level = player.currentLevel;
+        levelIndex = player.Currentlvl;
         health = player.HP;
+        levelAt = player.LevelAt;
 
         position = new float[3];
         position[0] = player.transform.position.x;

@@ -110,6 +110,7 @@ Library: lib_burst_generated
 --compilation-defines=ENABLE_TILEMAP
 --compilation-defines=ENABLE_TIMELINE
 --compilation-defines=ENABLE_INPUT_SYSTEM
+--compilation-defines=ENABLE_LEGACY_INPUT_MANAGER
 --compilation-defines=PACKAGE_PHYSICS
 --compilation-defines=PACKAGE_PHYSICS2D
 --compilation-defines=PACKAGE_TILEMAP
@@ -150,6 +151,7 @@ Library: lib_burst_generated
 --root-assembly=C:\Users\admin\Documents\GitHub\Coding-Castle\Temp\StagingArea\Data\Managed\Unity.InputSystem.dll
 --root-assembly=C:\Users\admin\Documents\GitHub\Coding-Castle\Temp\StagingArea\Data\Managed\Unity.VisualScripting.State.dll
 --root-assembly=C:\Users\admin\Documents\GitHub\Coding-Castle\Temp\StagingArea\Data\Managed\Unity.VisualScripting.Core.dll
+--root-assembly=C:\Users\admin\Documents\GitHub\Coding-Castle\Temp\StagingArea\Data\Managed\Assembly-CSharp.dll
 --root-assembly=C:\Users\admin\Documents\GitHub\Coding-Castle\Temp\StagingArea\Data\Managed\Unity.Services.Core.Environments.Internal.dll
 --root-assembly=C:\Users\admin\Documents\GitHub\Coding-Castle\Temp\StagingArea\Data\Managed\Unity.Burst.dll
 --root-assembly=C:\Users\admin\Documents\GitHub\Coding-Castle\Temp\StagingArea\Data\Managed\Unity.2D.Animation.Runtime.dll
@@ -158,9 +160,9 @@ Library: lib_burst_generated
 --root-assembly=C:\Users\admin\Documents\GitHub\Coding-Castle\Temp\StagingArea\Data\Managed\Unity.Timeline.dll
 --root-assembly=C:\Users\admin\Documents\GitHub\Coding-Castle\Temp\StagingArea\Data\Managed\Unity.Services.Core.dll
 --root-assembly=C:\Users\admin\Documents\GitHub\Coding-Castle\Temp\StagingArea\Data\Managed\Unity.Services.Core.Environments.dll
+--root-assembly=C:\Users\admin\Documents\GitHub\Coding-Castle\Temp\StagingArea\Data\Managed\SuperTiled2Unity.dll
 --root-assembly=C:\Users\admin\Documents\GitHub\Coding-Castle\Temp\StagingArea\Data\Managed\Unity.Services.Core.Internal.dll
 --root-assembly=C:\Users\admin\Documents\GitHub\Coding-Castle\Temp\StagingArea\Data\Managed\Unity.Services.Core.Analytics.dll
---root-assembly=C:\Users\admin\Documents\GitHub\Coding-Castle\Temp\StagingArea\Data\Managed\Assembly-CSharp.dll
 --root-assembly=C:\Users\admin\Documents\GitHub\Coding-Castle\Temp\StagingArea\Data\Managed\Unity.2D.SpriteShape.Runtime.dll
 --root-assembly=C:\Users\admin\Documents\GitHub\Coding-Castle\Temp\StagingArea\Data\Managed\Unity.Services.Core.Scheduler.dll
 --root-assembly=C:\Users\admin\Documents\GitHub\Coding-Castle\Temp\StagingArea\Data\Managed\Unity.Services.Core.Registration.dll
@@ -290,6 +292,7 @@ Library: lib_burst_generated
 --compilation-defines=ENABLE_TILEMAP
 --compilation-defines=ENABLE_TIMELINE
 --compilation-defines=ENABLE_INPUT_SYSTEM
+--compilation-defines=ENABLE_LEGACY_INPUT_MANAGER
 --compilation-defines=PACKAGE_PHYSICS
 --compilation-defines=PACKAGE_PHYSICS2D
 --compilation-defines=PACKAGE_TILEMAP
@@ -330,6 +333,7 @@ Library: lib_burst_generated
 --root-assembly=C:\Users\admin\Documents\GitHub\Coding-Castle\Temp\StagingArea\Data\Managed\Unity.InputSystem.dll
 --root-assembly=C:\Users\admin\Documents\GitHub\Coding-Castle\Temp\StagingArea\Data\Managed\Unity.VisualScripting.State.dll
 --root-assembly=C:\Users\admin\Documents\GitHub\Coding-Castle\Temp\StagingArea\Data\Managed\Unity.VisualScripting.Core.dll
+--root-assembly=C:\Users\admin\Documents\GitHub\Coding-Castle\Temp\StagingArea\Data\Managed\Assembly-CSharp.dll
 --root-assembly=C:\Users\admin\Documents\GitHub\Coding-Castle\Temp\StagingArea\Data\Managed\Unity.Services.Core.Environments.Internal.dll
 --root-assembly=C:\Users\admin\Documents\GitHub\Coding-Castle\Temp\StagingArea\Data\Managed\Unity.Burst.dll
 --root-assembly=C:\Users\admin\Documents\GitHub\Coding-Castle\Temp\StagingArea\Data\Managed\Unity.2D.Animation.Runtime.dll
@@ -338,9 +342,9 @@ Library: lib_burst_generated
 --root-assembly=C:\Users\admin\Documents\GitHub\Coding-Castle\Temp\StagingArea\Data\Managed\Unity.Timeline.dll
 --root-assembly=C:\Users\admin\Documents\GitHub\Coding-Castle\Temp\StagingArea\Data\Managed\Unity.Services.Core.dll
 --root-assembly=C:\Users\admin\Documents\GitHub\Coding-Castle\Temp\StagingArea\Data\Managed\Unity.Services.Core.Environments.dll
+--root-assembly=C:\Users\admin\Documents\GitHub\Coding-Castle\Temp\StagingArea\Data\Managed\SuperTiled2Unity.dll
 --root-assembly=C:\Users\admin\Documents\GitHub\Coding-Castle\Temp\StagingArea\Data\Managed\Unity.Services.Core.Internal.dll
 --root-assembly=C:\Users\admin\Documents\GitHub\Coding-Castle\Temp\StagingArea\Data\Managed\Unity.Services.Core.Analytics.dll
---root-assembly=C:\Users\admin\Documents\GitHub\Coding-Castle\Temp\StagingArea\Data\Managed\Assembly-CSharp.dll
 --root-assembly=C:\Users\admin\Documents\GitHub\Coding-Castle\Temp\StagingArea\Data\Managed\Unity.2D.SpriteShape.Runtime.dll
 --root-assembly=C:\Users\admin\Documents\GitHub\Coding-Castle\Temp\StagingArea\Data\Managed\Unity.Services.Core.Scheduler.dll
 --root-assembly=C:\Users\admin\Documents\GitHub\Coding-Castle\Temp\StagingArea\Data\Managed\Unity.Services.Core.Registration.dll

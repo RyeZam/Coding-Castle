@@ -3,9 +3,10 @@
         "height": 4300,
         "width": 2
     },
-    "activeFile": "8A.tmx",
+    "activeFile": "7A.tmx",
     "expandedProjectPaths": [
     ],
+    "file.lastUsedOpenFilter": "All Files (*)",
     "fileStates": {
         "10A.tmx": {
             "scale": 1,
@@ -51,8 +52,8 @@
             "scale": 0.33,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 203.030303030303,
-                "y": 57.57575757575762
+                "x": 1.5151515151515014,
+                "y": -253.030303030303
             }
         },
         "1A.tmx": {
@@ -80,11 +81,11 @@
             }
         },
         "4A.tmx": {
-            "scale": 0.5,
-            "selectedLayer": 0,
+            "scale": 1,
+            "selectedLayer": 1,
             "viewCenter": {
-                "x": 1,
-                "y": -255
+                "x": 0.5,
+                "y": -511.5
             }
         },
         "5A.tmx": {
@@ -104,19 +105,19 @@
             }
         },
         "7A.tmx": {
-            "scale": 1,
+            "scale": 5.5,
             "selectedLayer": 1,
             "viewCenter": {
-                "x": 0.5,
-                "y": -511.5
+                "x": 146.72727272727275,
+                "y": -1272.727272727273
             }
         },
         "8A.tmx": {
             "scale": 1.5,
             "selectedLayer": 1,
             "viewCenter": {
-                "x": -334.66666666666663,
-                "y": -134
+                "x": 0.3333333333333286,
+                "y": -512.3333333333333
             }
         },
         "9A.tmx": {
@@ -165,7 +166,9 @@
         "15A.tmx",
         "full tilemap.tsx",
         "full spritesheet.tsx",
-        "8A.tmx"
+        "8A.tmx",
+        "4A.tmx",
+        "7A.tmx"
     ],
     "project": "Tiles.tiled-project",
     "recentFiles": [
@@ -177,10 +180,10 @@
         "full tilemap.tsx",
         "full spritesheet.tsx",
         "8A.tmx",
-        "10A.tmx",
-        "9A.tmx",
+        "4A.tmx",
         "7A.tmx",
-        "6A.tmx"
+        "10A.tmx",
+        "9A.tmx"
     ],
     "tileset.lastUsedFormat": "tsx",
     "tileset.tileSize": {

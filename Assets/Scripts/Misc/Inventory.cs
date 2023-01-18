@@ -12,14 +12,19 @@ public class Inventory : MonoBehaviour
     public static int count = 0;
     public static int enCount = 0;
     public static int chest = 0;
+    public static int fountain = 0;
     public static float currentHP;
+    public static int lvl = 0;
+    public static int crrlvl = 0;
+
+    public int levelAt = 0;
 
     Scene currentScene;
-    public string currentLevel;
+    public int currentLevel = 0;
     public float HP;
 
     private float timer = 0f;
-    public float period = 0.5f;
+    private float period = 0.5f;
 
     // Start is called before the first frame update
     void Start()
@@ -27,29 +32,32 @@ public class Inventory : MonoBehaviour
         count = 0;
         enCount = 0;
         chest = 0;
+        fountain = 0;
     }
 
     // Update is called once per frame
-    /*void Update()
+    private void Update()
     {
         timer += Time.deltaTime;
         if (timer >= period)
         {
             timer = timer - period;
             SaveStats();
-            SavePlayer();
+            //SavePlayer();
         }
-    }*/
-
-    public void SavePlayer()
-    {
-        SaveSystem.SavePlayer(this);
     }
-    public void LoadPlayer()
+
+
+    /*public void LoadPlayer()
     {
         PlayerData data = SaveSystem.LoadPlayer();
-        currentLevel = data.level;
+        currentLevel = data.levelIndex;
+        crrlvl = currentLevel;
         currentHP = data.health;
+        lvl = data.levelAt;
+
+        currentLevel = Store.lvlIndex;
+        lvl = Store.lvl;
 
         Vector3 position;
         position.x = data.position[0];
@@ -58,13 +66,18 @@ public class Inventory : MonoBehaviour
 
         transform.position = position;
         SceneManager.LoadScene(currentLevel);
-    }
+    }*/
+
 
     public void SaveStats()
     {
         currentScene = SceneManager.GetActiveScene();
-        currentLevel = currentScene.name;
+        currentLevel = currentScene.buildIndex;
+        //Debug.Log(currentLevel);
+        crrlvl = currentLevel;
         HP = currentHP;
+        levelAt = lvl;
+        FindObjectOfType<Store>().SavePlayer();
     }
 
     private void OnTriggerEnter2D(Collider2D other)
