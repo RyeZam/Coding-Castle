@@ -49,25 +49,31 @@ public class Inventory : MonoBehaviour
     }
 
 
-    /*public void LoadPlayer()
+    public void LoadPlayer()
     {
         PlayerData data = SaveSystem.LoadPlayer();
+        Debug.Log("data is loaded");
         currentLevel = data.levelIndex;
+        Debug.Log("level index is loaded");
         crrlvl = currentLevel;
+        Debug.Log("level index is passed to crrlvl");
+        Debug.Log(crrlvl);
         currentHP = data.health;
+        Debug.Log("health is loaded");
         lvl = data.levelAt;
-
+        Debug.Log("level is loaded");
+        /*
         currentLevel = Store.lvlIndex;
         lvl = Store.lvl;
-
-        Vector3 position;
+        */
+        /*Vector3 position;
         position.x = data.position[0];
         position.y = data.position[1];
         position.z = data.position[2];
 
-        transform.position = position;
-        SceneManager.LoadScene(currentLevel);
-    }*/
+        transform.position = position;*/
+        //SceneManager.LoadScene(currentLevel);
+    }
 
 
     public void SaveStats()
@@ -78,7 +84,8 @@ public class Inventory : MonoBehaviour
         crrlvl = currentLevel;
         HP = currentHP;
         levelAt = lvl;
-        FindObjectOfType<Store>().SavePlayer();
+        //FindObjectOfType<Store>().SavePlayer();
+        SaveSystem.SavePlayer(this);
     }
 
     private void OnTriggerEnter2D(Collider2D other)

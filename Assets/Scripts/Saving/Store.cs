@@ -21,7 +21,7 @@ public class Store: MonoBehaviour
         HP = currentHP;
         LevelAt = lvl;
 
-        SaveSystem.SavePlayer(this);
+        //SaveSystem.SavePlayer(this);
     }
 
     public void LoadPlayer()

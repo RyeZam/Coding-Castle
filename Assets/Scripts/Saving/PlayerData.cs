@@ -10,11 +10,11 @@ public class PlayerData
     public float[] position;
     public int levelAt;
 
-    public PlayerData (Store player)
+    public PlayerData (Inventory player)
     {
-        levelIndex = player.Currentlvl;
+        levelIndex = player.currentLevel;
         health = player.HP;
-        levelAt = player.LevelAt;
+        levelAt = player.levelAt;
 
         position = new float[3];
         position[0] = player.transform.position.x;

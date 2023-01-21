@@ -8057,7 +8057,7 @@ PrefabInstance:
     - target: {fileID: 5275883414170889440, guid: f1c52c147aa0e8c43920ca1c695d7188, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1198328012}
     - target: {fileID: 5275883414170889440, guid: f1c52c147aa0e8c43920ca1c695d7188, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: OnNext
@@ -12765,6 +12765,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   state: 0
+  currScene:
+    m_Handle: 0
   playerPrefab: {fileID: 2504559700118795732, guid: a30f2bbe302c7d641a8b6b1a12e31b6a, type: 3}
   enemyPrefab: {fileID: 3626739952183856015, guid: 3eb3e7cc2960a6541945be0e6cc4b547, type: 3}
   playerBattleStation: {fileID: 1485541107}

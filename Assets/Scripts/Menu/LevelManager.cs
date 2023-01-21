@@ -22,7 +22,7 @@ public class LevelManager : MonoBehaviour
     public void Activate()
     {
         //Inventory level = GetComponent<Inventory>();
-        int lvl = Store.lvl;
+        int lvl = Inventory.lvl;
 
         levelsbtn = new Button[16];
         for (var i = 1; i <= 15; i++)

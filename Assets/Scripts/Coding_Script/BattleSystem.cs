@@ -2,12 +2,15 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public enum BattleState { START, PLAYERTURN, ENEMYTURN, WON, LOST}
 
 public class BattleSystem : MonoBehaviour
 {
     public BattleState state;
+
+    Scene currScene;
 
     public GameObject playerPrefab;
     public GameObject enemyPrefab;
@@ -48,7 +51,8 @@ public class BattleSystem : MonoBehaviour
         /*timer += Time.deltaTime;
         if (timer > 3.5f)
         {
-            yup = true;
+            //yup = true;
+            SaveStats();
         }*/
     }
 
@@ -66,6 +70,8 @@ public class BattleSystem : MonoBehaviour
     {
         Debug.Log("Setting up");
         Setup(answers);
+        //save
+        //SaveStats();
         GameObject playerGO = Instantiate(playerPrefab, playerBattleStation);
         playerUnit = playerGO.GetComponent<Unit>();
         GameObject enemyGO = Instantiate(enemyPrefab, enemyBattleStation);
@@ -83,6 +89,13 @@ public class BattleSystem : MonoBehaviour
         state = BattleState.PLAYERTURN;
         PlayerTurn();
     }
+
+    /*void SaveStats()
+    {
+        currScene = SceneManager.GetActiveScene();
+        int currentLevel = currScene.buildIndex;
+        Inventory.crrlvl = currentLevel;
+    }*/
 
     public string readString()
     {

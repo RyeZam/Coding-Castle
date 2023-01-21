@@ -8,6 +8,6 @@ public class CutsceneManager : MonoBehaviour
 {
     void OnEnable()
     {
-        SceneManager.LoadScene("1A", LoadSceneMode.Single);
+        SceneManager.LoadScene("Tutorial", LoadSceneMode.Single);
     }
 }

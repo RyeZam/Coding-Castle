@@ -30,7 +30,7 @@ public class Chest : MonoBehaviour
         Inventory.chest++;
         //PlayerHealth health = GetComponent<PlayerHealth>();
         //health.playerHealth += 100;
-        Store.lvl++;
+        Inventory.lvl++;
         anim.SetBool("isOpen", true);
     }
 
