@@ -140,10 +140,10 @@ PolygonCollider2D:
   m_AutoTiling: 0
   m_Points:
     m_Paths:
-    - - {x: 0.09948027, y: -0.13548897}
-      - {x: 0.099063545, y: -0.057177663}
-      - {x: -0.10014215, y: -0.060085922}
-      - {x: -0.099126875, y: -0.1380904}
+    - - {x: 0.1005193, y: -0.15119551}
+      - {x: 0.10062221, y: -0.05458033}
+      - {x: -0.09962264, y: -0.055410057}
+      - {x: -0.10016602, y: -0.15159872}
 --- !u!95 &2285380878282226657
 Animator:
   serializedVersion: 4
@@ -184,8 +184,9 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1497483618129186132}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: b977d04aef5c0504d9e3e65aabec1145, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  reqFtn: 0

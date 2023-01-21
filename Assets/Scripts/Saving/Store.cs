@@ -5,17 +5,17 @@ using UnityEngine.SceneManagement;
 
 public class Store: MonoBehaviour
 {
-    public static int lvlIndex = 0, lvl = 0;
+    public static int lvlIndex, lvl;
     public static float currentHP;
 
-    public int Currentlvl = 0, LevelAt = 0;
+    public int Currentlvl, LevelAt;
     public float HP;
 
     Scene currentScene;
 
     public void SavePlayer()
     {
-        currentScene = SceneManager.GetActiveScene();
+        currentScene = GetComponent<Inventory>().currentScene;
         lvlIndex = currentScene.buildIndex;
         Currentlvl = lvlIndex;
         HP = currentHP;

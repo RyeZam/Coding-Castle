@@ -32,7 +32,12 @@ public class DoorOpen : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
-            FindObjectOfType<SceneMove>().LoadNextScene();
+            FindObjectOfType<LevelClear>().ScoreComputation();
         }
+    }
+
+    public void OnNext()
+    {
+        FindObjectOfType<SceneMove>().LoadNextScene();
     }
 }

@@ -8,12 +8,13 @@ public class MainMenu : MonoBehaviour
 {
     public bool firstTime;
     public Button lvlBtn;
-    int current = 0;
+    int current;
     //public Inventory load;
 
     private void Start()
     {
         //load.LoadPlayer();
+        FindObjectOfType<Store>().LoadPlayer();
         Activatebtn();
         FindObjectOfType<Logo>().Animate();
     }
@@ -22,6 +23,8 @@ public class MainMenu : MonoBehaviour
     public void Activatebtn()
     {
         //Inventory level = GetComponent<Inventory>();
+
+        FindObjectOfType<Store>().LoadPlayer();
         if (Store.lvl >= 1) firstTime = false;
         else firstTime = true;
 

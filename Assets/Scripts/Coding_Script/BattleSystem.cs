@@ -28,8 +28,8 @@ public class BattleSystem : MonoBehaviour
 
     private string inputLine;
     private string x;
-    private float timer = 0f;
-    private bool yup = false;
+    //private float timer = 0f;
+    //private bool yup = false;
     
 
     private Queue<string> inputs;
@@ -45,11 +45,11 @@ public class BattleSystem : MonoBehaviour
 
     private void Update()
     {
-        timer += Time.deltaTime;
+        /*timer += Time.deltaTime;
         if (timer > 3.5f)
         {
             yup = true;
-        }
+        }*/
     }
 
     public void Setup(SampleCodes dialogue)
@@ -149,8 +149,11 @@ public class BattleSystem : MonoBehaviour
         yes = false;
         dialogueText.text = "Wrong Code! " + enemyUnit.unitName + " attacks!";
         enemyUnit.isAttacking();
+        playerUnit.Hit();
         yield return new WaitForSeconds(1.5f);
         enemyUnit.isNotAttacking();
+        playerUnit.isNotAttacking();
+        CodingClear.deduct++;
         bool isDead = playerUnit.TakeDamage(enemyUnit.damage);
 
         playerHUD.setHP(playerUnit.currentHP);
@@ -173,26 +176,32 @@ public class BattleSystem : MonoBehaviour
         if (state == BattleState.WON)
         {
             dialogueText.text = "You slain the " + enemyUnit.unitName + " !";
+            FindObjectOfType<CodingClear>().ScoreComputation();
         } else if (state == BattleState.LOST) {
+            playerUnit.Dead();
             dialogueText.text = "You were defeated.";
-        }
-        StartCoroutine(NextLevel());
+        } 
     }
 
-    IEnumerator NextLevel()
+    public void OnNext()
     {
-        yield return new WaitForSeconds(2.5f);
         FindObjectOfType<SceneMove>().LoadNextScene();
     }
+
+    /*IEnumerator NextLevel()
+    {
+        //yield return new WaitForSeconds(2.5f);
+        FindObjectOfType<SceneMove>().LoadNextScene();
+    }*/
 
     void PlayerTurn()
     {
         dialogueText.text = "Code to defeat the monster!";
 
-        if (yup == true)
+        /*if (yup == true)
         {
             hintText.text = "Hint";
-        }
+        }*/
     }
 
     public void OnAttackButton()

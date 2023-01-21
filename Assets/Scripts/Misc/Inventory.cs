@@ -14,13 +14,14 @@ public class Inventory : MonoBehaviour
     public static int chest = 0;
     public static int fountain = 0;
     public static float currentHP;
-    public static int lvl = 0;
-    public static int crrlvl = 0;
+    public static int lvl;
+    public static int crrlvl;
+    public static int deathCount;
 
-    public int levelAt = 0;
+    public int levelAt;
 
-    Scene currentScene;
-    public int currentLevel = 0;
+    public Scene currentScene;
+    public int currentLevel;
     public float HP;
 
     private float timer = 0f;
@@ -41,7 +42,7 @@ public class Inventory : MonoBehaviour
         timer += Time.deltaTime;
         if (timer >= period)
         {
-            timer = timer - period;
+            timer =- period;
             SaveStats();
             //SavePlayer();
         }

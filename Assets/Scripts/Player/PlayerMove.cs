@@ -22,6 +22,7 @@ public class PlayerMove : MonoBehaviour
     public ContactFilter2D movementFilter;
     public Weapon swordAttack;
     public Vector2 export;
+    public GameObject item, textBox;
 
     Vector2 movementInput = Vector2.zero;
     SpriteRenderer spriteRenderer;
@@ -29,7 +30,7 @@ public class PlayerMove : MonoBehaviour
     Animator animator;
     List<RaycastHit2D> castCollisions = new List<RaycastHit2D>();
 
-    //bool canMove = true;
+    bool canMove = true;
     //bool isMoving = false;
 
     // Start is called before the first frame update
@@ -42,8 +43,8 @@ public class PlayerMove : MonoBehaviour
 
     private void FixedUpdate()
     {
-        //if (canMove)
-        //{
+        if (canMove)
+        {
             // If movement input is not 0, try to move
             if (movementInput != Vector2.zero)
             {
@@ -80,12 +81,33 @@ public class PlayerMove : MonoBehaviour
                     spriteRenderer.flipX = false;
                 }
                 //IsMoving = true;
-        //}
+        }
+
+            if (Chest.opened)
+            {
+                StartCoroutine(openAnimation());
+            }
         /*else
         {
             //rb.velocity = Vector2.Lerp(rb.velocity, Vector2.zero, idleFriction);
             //IsMoving = false;
         }*/  
+    }
+
+    IEnumerator openAnimation()
+    {
+        LockMovement();
+        textBox.SetActive(true); 
+        animator.SetBool("received", true);
+        item.SetActive(true);
+
+        yield return new WaitForSeconds(2.5f);
+
+        animator.SetBool("received", false);
+        item.SetActive(false);
+        textBox.SetActive(false);
+        Chest.opened = false;
+        UnlockMovement();
     }
 
     /*void UpdateAnimatorParameters()
@@ -149,7 +171,7 @@ public class PlayerMove : MonoBehaviour
         swordAttack.StopAttack();
     }
 
-    /*public void LockMovement()
+    public void LockMovement()
     {
         canMove = false;
     }
@@ -157,5 +179,5 @@ public class PlayerMove : MonoBehaviour
     public void UnlockMovement()
     {
         canMove = true;
-    }*/
+    }
 }

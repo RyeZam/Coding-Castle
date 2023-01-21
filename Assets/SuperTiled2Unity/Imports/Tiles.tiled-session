@@ -84,8 +84,8 @@
             "scale": 1,
             "selectedLayer": 1,
             "viewCenter": {
-                "x": 0.5,
-                "y": -511.5
+                "x": 1,
+                "y": -847
             }
         },
         "5A.tmx": {
@@ -105,11 +105,11 @@
             }
         },
         "7A.tmx": {
-            "scale": 5.5,
+            "scale": 3,
             "selectedLayer": 1,
             "viewCenter": {
-                "x": 146.72727272727275,
-                "y": -1272.727272727273
+                "x": 123.66666666666664,
+                "y": -1180.3333333333333
             }
         },
         "8A.tmx": {
@@ -121,11 +121,11 @@
             }
         },
         "9A.tmx": {
-            "scale": 0.75,
+            "scale": 1.5,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 1.3333333333333712,
-                "y": -398.66666666666663
+                "x": 46,
+                "y": -1617.3333333333333
             }
         },
         "Additional.tsx": {
@@ -160,30 +160,27 @@
     "map.tileWidth": 16,
     "openFiles": [
         "11A.tmx",
-        "12A.tmx",
-        "13A.tmx",
-        "14A.tmx",
-        "15A.tmx",
-        "full tilemap.tsx",
-        "full spritesheet.tsx",
-        "8A.tmx",
-        "4A.tmx",
-        "7A.tmx"
-    ],
-    "project": "Tiles.tiled-project",
-    "recentFiles": [
-        "11A.tmx",
-        "12A.tmx",
-        "13A.tmx",
-        "14A.tmx",
-        "15A.tmx",
         "full tilemap.tsx",
         "full spritesheet.tsx",
         "8A.tmx",
         "4A.tmx",
         "7A.tmx",
-        "10A.tmx",
         "9A.tmx"
+    ],
+    "project": "Tiles.tiled-project",
+    "recentFiles": [
+        "11A.tmx",
+        "full tilemap.tsx",
+        "full spritesheet.tsx",
+        "8A.tmx",
+        "4A.tmx",
+        "9A.tmx",
+        "7A.tmx",
+        "12A.tmx",
+        "13A.tmx",
+        "14A.tmx",
+        "15A.tmx",
+        "10A.tmx"
     ],
     "tileset.lastUsedFormat": "tsx",
     "tileset.tileSize": {

@@ -55,6 +55,7 @@ public class PlayerHealth : MonoBehaviour
     {
         //PlayerMove player = GetComponent<PlayerMove>();
         //player.transform.position = new Vector3(spawnPoint.position.x, spawnPoint.position.y, spawnPoint.position.z);
+        Inventory.deathCount++;
         SceneManager.LoadScene(Respawn);
     }
 

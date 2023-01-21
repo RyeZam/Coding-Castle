@@ -38,4 +38,18 @@ public class FountainLogic : MonoBehaviour
             } 
         }
     }
+    private void OnTriggerExit2D(Collider2D other)
+    {
+        if (other.CompareTag("Pickup")){
+
+            string store = other.GetComponent<Jar>().typeNum;
+
+            if (store == ReqType)
+            {
+                num -= other.GetComponent<Jar>().value;
+                count--;
+            }
+                
+        }
+    }
 }
