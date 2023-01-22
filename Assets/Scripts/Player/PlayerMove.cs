@@ -173,11 +173,13 @@ public class PlayerMove : MonoBehaviour
 
     public void LockMovement()
     {
+        animator.SetBool("isMoving", false);
         canMove = false;
     }
 
     public void UnlockMovement()
     {
+        animator.SetBool("isMoving", true);
         canMove = true;
     }
 }

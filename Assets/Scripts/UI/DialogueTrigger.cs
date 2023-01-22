@@ -17,6 +17,7 @@ public class DialogueTrigger : MonoBehaviour
 
     public void TriggerDialogue()
     {
+        FindObjectOfType<PlayerMove>().LockMovement();
         FindObjectOfType<DialogueManager>().StartDialogue(dialogue);
         FindObjectOfType<DManager>().StartDialogue(samples);
     }

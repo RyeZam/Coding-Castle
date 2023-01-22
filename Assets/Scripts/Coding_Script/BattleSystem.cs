@@ -11,6 +11,7 @@ public class BattleSystem : MonoBehaviour
     public BattleState state;
 
     Scene currScene;
+    int Respawn;
 
     public GameObject playerPrefab;
     public GameObject enemyPrefab;
@@ -44,6 +45,7 @@ public class BattleSystem : MonoBehaviour
         inputs = new Queue<string>();
         state = BattleState.START;
         StartCoroutine(SetupBattle());
+        Respawn = SceneManager.GetActiveScene().buildIndex;
     }
 
     private void Update()
@@ -193,6 +195,7 @@ public class BattleSystem : MonoBehaviour
         } else if (state == BattleState.LOST) {
             playerUnit.Dead();
             dialogueText.text = "You were defeated.";
+            SceneManager.LoadScene(Respawn);
         } 
     }
 

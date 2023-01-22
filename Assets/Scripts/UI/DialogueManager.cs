@@ -26,7 +26,6 @@ public class DialogueManager : MonoBehaviour
         //Debug.Log("Starting Conversation with " + dialogue.name);
         anim.SetBool("isOpen", true);
         anim1.SetBool("isOpen", true);
-
         nameText.text = dialogue.name;
 
         sentences.Clear();
@@ -66,6 +65,7 @@ public class DialogueManager : MonoBehaviour
     {
         anim.SetBool("isOpen", false);
         anim1.SetBool("isOpen", false);
+        FindObjectOfType<PlayerMove>().UnlockMovement();
     }
 
 }

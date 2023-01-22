@@ -60,6 +60,7 @@ public class DManager : MonoBehaviour
     public void EndDialogue()
     {
         anim.SetBool("isOpen", false);
+        //FindObjectOfType<PlayerMove>().UnlockMovement();
     }
 
 }

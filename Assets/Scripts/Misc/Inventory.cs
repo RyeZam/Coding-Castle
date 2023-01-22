@@ -83,7 +83,7 @@ public class Inventory : MonoBehaviour
         //Debug.Log(currentLevel);
         crrlvl = currentLevel;
         HP = currentHP;
-        levelAt = lvl;
+        //levelAt = lvl;
         //FindObjectOfType<Store>().SavePlayer();
         SaveSystem.SavePlayer(this);
     }
