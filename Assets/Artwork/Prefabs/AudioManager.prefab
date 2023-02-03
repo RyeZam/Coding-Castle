@@ -1,0 +1,125 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2759667891160504502
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 214561552032022178}
+  - component: {fileID: 513928554911913718}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &214561552032022178
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2759667891160504502}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &513928554911913718
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2759667891160504502}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8767087c8f54c7d4b9605728b2ef3f39, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - name: Title Theme
+    clip: {fileID: 8300000, guid: 3deff01b2794db84c82ec2f7e8a08761, type: 3}
+    volume: 0.22
+    pitch: 1
+    source: {fileID: 0}
+    loop: 0
+  - name: Quiz
+    clip: {fileID: 8300000, guid: 3e35a703a4653c94ca07cadb3f08a1f8, type: 3}
+    volume: 0.22
+    pitch: 1
+    source: {fileID: 0}
+    loop: 0
+  - name: Code
+    clip: {fileID: 8300000, guid: 55480d04ce70dbb438e88d8e10980571, type: 3}
+    volume: 0.22
+    pitch: 1
+    source: {fileID: 0}
+    loop: 0
+  - name: Player Hit
+    clip: {fileID: 8300000, guid: b7b2aabde9c770a46a988feff9ef4585, type: 3}
+    volume: 0.445
+    pitch: 1
+    source: {fileID: 0}
+    loop: 0
+  - name: Teleport
+    clip: {fileID: 8300000, guid: 0f12b31a4a902b44f8d395672b90b71e, type: 3}
+    volume: 0.445
+    pitch: 1
+    source: {fileID: 0}
+    loop: 0
+  - name: Sword
+    clip: {fileID: 8300000, guid: 43a212a68e9cecc4b81d6936be5e7677, type: 3}
+    volume: 0.445
+    pitch: 1
+    source: {fileID: 0}
+    loop: 0
+  - name: Barrel Explosion
+    clip: {fileID: 8300000, guid: 6b2fdc5837e48204cafadf67c44ce27a, type: 3}
+    volume: 0.445
+    pitch: 1
+    source: {fileID: 0}
+    loop: 0
+  - name: Player Death
+    clip: {fileID: 8300000, guid: e8d89b0ed7a69c842a0a4f10420bc70e, type: 3}
+    volume: 0.445
+    pitch: 1
+    source: {fileID: 0}
+    loop: 0
+  - name: Interact
+    clip: {fileID: 8300000, guid: 7bb49ae3394e69a42b4ab614f9ffb3d4, type: 3}
+    volume: 0.445
+    pitch: 1
+    source: {fileID: 0}
+    loop: 0
+  - name: LevelComplete
+    clip: {fileID: 8300000, guid: 8bae221c6338812448fc0c5181bff92f, type: 3}
+    volume: 0.445
+    pitch: 1
+    source: {fileID: 0}
+    loop: 0
+  - name: Chest
+    clip: {fileID: 8300000, guid: 54db4ee8abfb96c41a5c8be2558d6270, type: 3}
+    volume: 0.445
+    pitch: 1
+    source: {fileID: 0}
+    loop: 0
+  - name: Level
+    clip: {fileID: 8300000, guid: 1d44d7744998d8a4ca07b425ab5b1fa7, type: 3}
+    volume: 0.22
+    pitch: 1
+    source: {fileID: 0}
+    loop: 0
+  - name: Enemy Hit
+    clip: {fileID: 8300000, guid: 7af77eab1ed9b6e46b2e3d735a2923ee, type: 3}
+    volume: 0.445
+    pitch: 1
+    source: {fileID: 0}
+    loop: 0

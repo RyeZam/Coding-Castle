@@ -28,6 +28,7 @@ public class PlayerMove : MonoBehaviour
     SpriteRenderer spriteRenderer;
     Rigidbody2D rb;
     Animator animator;
+    public AudioSource footsteps;
     List<RaycastHit2D> castCollisions = new List<RaycastHit2D>();
 
     bool canMove = true;
@@ -39,10 +40,12 @@ public class PlayerMove : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
         spriteRenderer = GetComponent<SpriteRenderer>();
+        FindObjectOfType<AudioManager>().Play("Quiz");
     }
 
     private void FixedUpdate()
     {
+        State.lvlState = "Quiz";
         if (canMove)
         {
             // If movement input is not 0, try to move
@@ -63,12 +66,14 @@ public class PlayerMove : MonoBehaviour
                 }
 
                 animator.SetBool("isMoving", success);
-                export = movementInput;
+                export = movementInput;      
                 //export = GetComponent<GrabObject>().lookdir;
             }
             else
             {
                 animator.SetBool("isMoving", false);
+                footsteps.enabled = false;
+                //FindObjectOfType<AudioManager>().Stop("Walk");
             }
 
             // Set direction of sprite to movement direction
@@ -83,7 +88,7 @@ public class PlayerMove : MonoBehaviour
                 //IsMoving = true;
         }
 
-            if (Chest.opened)
+        if (Chest.opened)
             {
                 StartCoroutine(openAnimation());
             }
@@ -129,6 +134,7 @@ public class PlayerMove : MonoBehaviour
             if (count == 0)
             {
                 rb.MovePosition(rb.position + direction * moveSpeed * Time.fixedDeltaTime);
+                footsteps.enabled = true;
                 return true;
             }
             else
@@ -159,6 +165,8 @@ public class PlayerMove : MonoBehaviour
     {
         //LockMovement();
 
+        FindObjectOfType<AudioManager>().Play("Sword");
+
         if (spriteRenderer.flipX == true)
             swordAttack.AttackLeft();
         else
@@ -174,6 +182,7 @@ public class PlayerMove : MonoBehaviour
     public void LockMovement()
     {
         animator.SetBool("isMoving", false);
+        footsteps.enabled = false;
         canMove = false;
     }
 

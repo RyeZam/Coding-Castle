@@ -20,6 +20,7 @@ public class RoomTeleport : MonoBehaviour
 
             if (currentTeleporter != null)
             {
+                FindObjectOfType<AudioManager>().Play("Teleport");
                 transform.position = currentTeleporter.GetComponent<Teleport>().GetDestination().position;
             }
         }

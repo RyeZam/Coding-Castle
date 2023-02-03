@@ -10,6 +10,8 @@ public class FountainLogic : MonoBehaviour
     private int num = 0;
     public int count=0;
 
+    public AudioSource openSound;
+
     private void Start()
     {
         anim = GetComponent<Animator>();
@@ -29,6 +31,7 @@ public class FountainLogic : MonoBehaviour
                 {
                     //Open fountain
                     anim.SetBool("isOpen", true);
+                    openSound.enabled = true;
                     //set a checkmark for a door opening
                     count++;
                     Inventory.fountain++;
@@ -48,6 +51,7 @@ public class FountainLogic : MonoBehaviour
             {
                 num -= other.GetComponent<Jar>().value;
                 count--;
+                Inventory.fountain--;
             }
                 
         }

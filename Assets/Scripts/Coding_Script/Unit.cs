@@ -29,6 +29,7 @@ public class Unit : MonoBehaviour
     public void isAttacking()
     {
         animator.SetBool("isAttacking", true);
+        FindObjectOfType<AudioManager>().Play("Sword");
     }
 
     public void isNotAttacking()
@@ -39,6 +40,7 @@ public class Unit : MonoBehaviour
     public void Hit()
     {
         animator.SetTrigger("isHit");
+        FindObjectOfType<AudioManager>().Play("Enemy Hit");
     }
 
     public void Dead()

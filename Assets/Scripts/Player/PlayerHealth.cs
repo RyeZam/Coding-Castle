@@ -55,6 +55,7 @@ public class PlayerHealth : MonoBehaviour
     {
         //PlayerMove player = GetComponent<PlayerMove>();
         //player.transform.position = new Vector3(spawnPoint.position.x, spawnPoint.position.y, spawnPoint.position.z);
+        FindObjectOfType<AudioManager>().Play("Player Death");
         Inventory.deathCount++;
         SceneManager.LoadScene(Respawn);
     }
@@ -62,5 +63,6 @@ public class PlayerHealth : MonoBehaviour
     public void playerHit()
     {
         anim.SetTrigger("isHit");
+        FindObjectOfType<AudioManager>().Play("Player Hit");
     }
 }

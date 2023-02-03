@@ -17,6 +17,7 @@ public class LevelMenu : MonoBehaviour
 
     private void Start()
     {
+        FindObjectOfType<AudioManager>().Play("Level");
         pageNum = 1;
         leftBtn.SetActive(false);
     }

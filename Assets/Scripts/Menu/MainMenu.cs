@@ -8,11 +8,14 @@ public class MainMenu : MonoBehaviour
 {
     public bool firstTime;
     public Button lvlBtn;
+    public GameObject contBtn;
+    public GameObject playBtn;
     int current;
     //public Inventory load;
 
     private void Start()
     {
+        FindObjectOfType<AudioManager>().Play("Title Theme");
         FindObjectOfType<Logo>().Animate();
         LoadPlayer();
         Activatebtn();
@@ -25,7 +28,7 @@ public class MainMenu : MonoBehaviour
         //Inventory level = GetComponent<Inventory>();
         //FindObjectOfType<Store>().LoadPlayer();
         if (Inventory.crrlvl >= 1) firstTime = false;
-        else firstTime = true;
+        else if (Inventory.crrlvl < 1) firstTime = true;
 
         if (firstTime == true)
         {
@@ -34,21 +37,20 @@ public class MainMenu : MonoBehaviour
         else
         {
             lvlBtn.interactable = true;
+            contBtn.SetActive(true);
+            playBtn.SetActive(false);
         }
     }
 
     public void PlayGame()
     {
-        if (firstTime == true)
-        {
-            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 2);
-        }
-        else if (firstTime == false)
-        {
-            current = Inventory.crrlvl;
-            SceneManager.LoadScene(current);
-        }
-       
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 2);
+    }
+
+    public void ContinueGame()
+    {
+        current = Inventory.crrlvl;
+        SceneManager.LoadScene(current);
     }
 
     public void LoadPlayer()

@@ -21,6 +21,7 @@ public class Barrel : MonoBehaviour
 
     public void Smash()
     {
+        FindObjectOfType<AudioManager>().Play("Barrel Explosion");
         anim.SetBool("Smashed", true);
     }
 

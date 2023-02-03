@@ -41,7 +41,8 @@ public class BattleSystem : MonoBehaviour
 
     // Start is called before the first frame update
     void Start()
-    {   
+    {
+        FindObjectOfType<AudioManager>().Play("Code");
         inputs = new Queue<string>();
         state = BattleState.START;
         StartCoroutine(SetupBattle());
@@ -72,6 +73,7 @@ public class BattleSystem : MonoBehaviour
     {
         Debug.Log("Setting up");
         Setup(answers);
+        State.lvlState = "Code";
         //save
         //SaveStats();
         GameObject playerGO = Instantiate(playerPrefab, playerBattleStation);
@@ -195,13 +197,19 @@ public class BattleSystem : MonoBehaviour
         } else if (state == BattleState.LOST) {
             playerUnit.Dead();
             dialogueText.text = "You were defeated.";
-            SceneManager.LoadScene(Respawn);
+            StartCoroutine(RespawnLvl());
         } 
     }
 
     public void OnNext()
     {
         FindObjectOfType<SceneMove>().LoadNextScene();
+    }
+
+    IEnumerator RespawnLvl()
+    {
+        yield return new WaitForSeconds(1.5f);
+        SceneManager.LoadScene(Respawn);
     }
 
     /*IEnumerator NextLevel()

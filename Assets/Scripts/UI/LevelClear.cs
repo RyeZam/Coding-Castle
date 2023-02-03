@@ -23,11 +23,14 @@ public class LevelClear : MonoBehaviour
 
     public void ScoreComputation()
     {
+        FindObjectOfType<PlayerMove>().LockMovement();
+
         int scoreDeduct = Inventory.deathCount;
         scoreDeduct *= 5;
         score -= scoreDeduct;
 
         scoreCanvas.SetActive(true);
+        FindObjectOfType<AudioManager>().Play("LevelComplete");
 
         if(score > 95)
         {
