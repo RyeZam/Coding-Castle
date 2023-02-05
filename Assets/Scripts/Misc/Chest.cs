@@ -30,7 +30,7 @@ public class Chest : MonoBehaviour
         Inventory.chest++;
         //PlayerHealth health = GetComponent<PlayerHealth>();
         //health.playerHealth += 100;
-        Inventory.lvl++;
+        //Inventory.lvl++;
         anim.SetBool("isOpen", true);
         FindObjectOfType<AudioManager>().Play("Chest");
     }

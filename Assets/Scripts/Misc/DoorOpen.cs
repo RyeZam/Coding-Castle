@@ -8,6 +8,9 @@ public class DoorOpen : MonoBehaviour
     //public float reqEnemy = 0;
     //public int reqCoin = 0;
     public int reqChest;
+
+    //public string nextLevel = "Level 2";
+    public int levelToUnlock = 1;
     //public GameObject player;
 
     Animator anim;
@@ -33,6 +36,8 @@ public class DoorOpen : MonoBehaviour
         if (other.CompareTag("Player"))
         {
             FindObjectOfType<LevelClear>().ScoreComputation();
+
+            Inventory.lvl = levelToUnlock;
         }
     }
 

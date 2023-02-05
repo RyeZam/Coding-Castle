@@ -8,8 +8,9 @@ public class FountainLogic : MonoBehaviour
     public string ReqType;
     public int ReqNum;
     private int num = 0;
-    public int count=0;
+    public int count=1;
 
+    bool turnOn = false;
     public AudioSource openSound;
 
     private void Start()
@@ -17,43 +18,59 @@ public class FountainLogic : MonoBehaviour
         anim = GetComponent<Animator>();
     }
 
+
     private void OnTriggerEnter2D(Collider2D other)
     {
         if (other.CompareTag("Pickup"))
         {
             string store = other.GetComponent<Jar>().typeNum;
-            //Debug.Log(store);
+
             if (store == ReqType)
             {
                 num += other.GetComponent<Jar>().value;
-
-                if (num == ReqNum)
-                {
-                    //Open fountain
-                    anim.SetBool("isOpen", true);
-                    openSound.enabled = true;
-                    //set a checkmark for a door opening
-                    count++;
-                    Inventory.fountain++;
-                    //Debug.Log(count);
-                    //FindObjectOfType<PuzzleOpen>().ftnOpen();
-                }
-            } 
+                //Debug.Log(num);
+                if (num == ReqNum) turnOn = true;
+                Check();
+            }
         }
     }
     private void OnTriggerExit2D(Collider2D other)
     {
         if (other.CompareTag("Pickup")){
 
-            string store = other.GetComponent<Jar>().typeNum;
+            string storeN = other.GetComponent<Jar>().typeNum;
 
-            if (store == ReqType)
+            if (storeN == ReqType)
             {
-                num --;
-                count--;
-                Inventory.fountain--;
-            }
-                
+                num--;
+                //count--;
+                //Debug.Log(num);
+                //turnOn = false;
+                Check();
+            }   
+        }
+    }
+
+    private void Check()
+    {
+        if (num != ReqNum && turnOn)
+        {
+            anim.SetBool("isOpen", false);
+            openSound.enabled = false;
+            //count--;
+            Inventory.fountain--;
+            Debug.Log(Inventory.fountain);
+        }
+        else if (num == ReqNum && turnOn)
+        {
+            //Open fountain
+            anim.SetBool("isOpen", true);
+            openSound.enabled = true;
+            //set a checkmark for a door opening
+            //count++;
+            Inventory.fountain++;
+            Debug.Log(Inventory.fountain);
+            //FindObjectOfType<PuzzleOpen>().ftnOpen();
         }
     }
 }

@@ -27,4 +27,18 @@ public class SceneMove : MonoBehaviour
 
         SceneManager.LoadScene(sceneIndex);
     }
+
+    public void SceneSelect(string scene)
+    {
+        StartCoroutine(LoadScn(scene));
+    }
+
+    IEnumerator LoadScn(string scene)
+    {
+        transition.SetTrigger("Start");
+
+        yield return new WaitForSeconds(transitionTime);
+
+        SceneManager.LoadScene(scene);
+    }
 }

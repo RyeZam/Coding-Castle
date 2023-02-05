@@ -51,75 +51,95 @@ MonoBehaviour:
     pitch: 1
     source: {fileID: 0}
     loop: 0
+    audioMixer: {fileID: 24300002, guid: e1ea638e71c8ec448a90cb7aa588811a, type: 2}
   - name: Quiz
     clip: {fileID: 8300000, guid: 3e35a703a4653c94ca07cadb3f08a1f8, type: 3}
     volume: 0.22
     pitch: 1
     source: {fileID: 0}
     loop: 0
+    audioMixer: {fileID: 24300002, guid: e1ea638e71c8ec448a90cb7aa588811a, type: 2}
   - name: Code
     clip: {fileID: 8300000, guid: 55480d04ce70dbb438e88d8e10980571, type: 3}
     volume: 0.22
     pitch: 1
     source: {fileID: 0}
     loop: 0
+    audioMixer: {fileID: 24300002, guid: e1ea638e71c8ec448a90cb7aa588811a, type: 2}
   - name: Player Hit
     clip: {fileID: 8300000, guid: b7b2aabde9c770a46a988feff9ef4585, type: 3}
     volume: 0.445
     pitch: 1
     source: {fileID: 0}
     loop: 0
+    audioMixer: {fileID: 24300002, guid: e1ea638e71c8ec448a90cb7aa588811a, type: 2}
   - name: Teleport
     clip: {fileID: 8300000, guid: 0f12b31a4a902b44f8d395672b90b71e, type: 3}
     volume: 0.445
     pitch: 1
     source: {fileID: 0}
     loop: 0
+    audioMixer: {fileID: 24300002, guid: e1ea638e71c8ec448a90cb7aa588811a, type: 2}
   - name: Sword
     clip: {fileID: 8300000, guid: 43a212a68e9cecc4b81d6936be5e7677, type: 3}
     volume: 0.445
     pitch: 1
     source: {fileID: 0}
     loop: 0
+    audioMixer: {fileID: 24300002, guid: e1ea638e71c8ec448a90cb7aa588811a, type: 2}
   - name: Barrel Explosion
     clip: {fileID: 8300000, guid: 6b2fdc5837e48204cafadf67c44ce27a, type: 3}
     volume: 0.445
     pitch: 1
     source: {fileID: 0}
     loop: 0
+    audioMixer: {fileID: 24300002, guid: e1ea638e71c8ec448a90cb7aa588811a, type: 2}
   - name: Player Death
     clip: {fileID: 8300000, guid: e8d89b0ed7a69c842a0a4f10420bc70e, type: 3}
     volume: 0.445
     pitch: 1
     source: {fileID: 0}
     loop: 0
+    audioMixer: {fileID: 24300002, guid: e1ea638e71c8ec448a90cb7aa588811a, type: 2}
   - name: Interact
     clip: {fileID: 8300000, guid: 7bb49ae3394e69a42b4ab614f9ffb3d4, type: 3}
     volume: 0.445
     pitch: 1
     source: {fileID: 0}
     loop: 0
+    audioMixer: {fileID: 24300002, guid: e1ea638e71c8ec448a90cb7aa588811a, type: 2}
   - name: LevelComplete
     clip: {fileID: 8300000, guid: 8bae221c6338812448fc0c5181bff92f, type: 3}
     volume: 0.445
     pitch: 1
     source: {fileID: 0}
     loop: 0
+    audioMixer: {fileID: 24300002, guid: e1ea638e71c8ec448a90cb7aa588811a, type: 2}
   - name: Chest
     clip: {fileID: 8300000, guid: 54db4ee8abfb96c41a5c8be2558d6270, type: 3}
     volume: 0.445
     pitch: 1
     source: {fileID: 0}
     loop: 0
+    audioMixer: {fileID: 24300002, guid: e1ea638e71c8ec448a90cb7aa588811a, type: 2}
   - name: Level
     clip: {fileID: 8300000, guid: 1d44d7744998d8a4ca07b425ab5b1fa7, type: 3}
     volume: 0.22
     pitch: 1
     source: {fileID: 0}
     loop: 0
+    audioMixer: {fileID: 24300002, guid: e1ea638e71c8ec448a90cb7aa588811a, type: 2}
   - name: Enemy Hit
     clip: {fileID: 8300000, guid: 7af77eab1ed9b6e46b2e3d735a2923ee, type: 3}
     volume: 0.445
     pitch: 1
     source: {fileID: 0}
     loop: 0
+    audioMixer: {fileID: 24300002, guid: e1ea638e71c8ec448a90cb7aa588811a, type: 2}
+  - name: Tutorial
+    clip: {fileID: 8300000, guid: 459113372e5548c41b7fb251332084b8, type: 3}
+    volume: 0.22
+    pitch: 1
+    source: {fileID: 0}
+    loop: 0
+    audioMixer: {fileID: 24300002, guid: e1ea638e71c8ec448a90cb7aa588811a, type: 2}

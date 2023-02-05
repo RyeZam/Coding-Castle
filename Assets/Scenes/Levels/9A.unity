@@ -5016,7 +5016,7 @@ GameObject:
   - component: {fileID: 485044679}
   - component: {fileID: 485044678}
   m_Layer: 0
-  m_Name: CM vcam6
+  m_Name: CM vcam9
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5517,7 +5517,7 @@ GameObject:
   - component: {fileID: 542518051}
   - component: {fileID: 542518050}
   m_Layer: 0
-  m_Name: CM vcam6
+  m_Name: CM vcam8
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6524,7 +6524,7 @@ MonoBehaviour:
   m_Priority: 10
   m_StandbyUpdate: 2
   m_LookAt: {fileID: 0}
-  m_Follow: {fileID: 0}
+  m_Follow: {fileID: 1517091375}
   m_Lens:
     FieldOfView: 60
     OrthographicSize: 1
@@ -8404,7 +8404,7 @@ MonoBehaviour:
   m_Priority: 10
   m_StandbyUpdate: 2
   m_LookAt: {fileID: 0}
-  m_Follow: {fileID: 0}
+  m_Follow: {fileID: 1517091375}
   m_Lens:
     FieldOfView: 60
     OrthographicSize: 1
@@ -8710,7 +8710,7 @@ GameObject:
   - component: {fileID: 881800956}
   - component: {fileID: 881800955}
   m_Layer: 0
-  m_Name: CM vcam7
+  m_Name: CM vcam11
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -12576,7 +12576,7 @@ GameObject:
   - component: {fileID: 1177265664}
   - component: {fileID: 1177265663}
   m_Layer: 0
-  m_Name: CM vcam7
+  m_Name: CM vcam10
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -13433,7 +13433,7 @@ MonoBehaviour:
   m_Priority: 10
   m_StandbyUpdate: 2
   m_LookAt: {fileID: 0}
-  m_Follow: {fileID: 0}
+  m_Follow: {fileID: 1517091375}
   m_Lens:
     FieldOfView: 60
     OrthographicSize: 1
@@ -15151,7 +15151,7 @@ MonoBehaviour:
   m_Priority: 10
   m_StandbyUpdate: 2
   m_LookAt: {fileID: 0}
-  m_Follow: {fileID: 0}
+  m_Follow: {fileID: 1517091375}
   m_Lens:
     FieldOfView: 60
     OrthographicSize: 1
@@ -15570,7 +15570,7 @@ MonoBehaviour:
   m_Priority: 10
   m_StandbyUpdate: 2
   m_LookAt: {fileID: 0}
-  m_Follow: {fileID: 0}
+  m_Follow: {fileID: 1517091375}
   m_Lens:
     FieldOfView: 60
     OrthographicSize: 1
@@ -16450,6 +16450,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: PauseCanvas 1
       objectReference: {fileID: 0}
+    - target: {fileID: 5195621030686544252, guid: f34d53e40e9f59c4686fad7f17f9a684, type: 3}
+      propertyPath: m_Camera
+      value: 
+      objectReference: {fileID: 1098966967}
     - target: {fileID: 5195621030686544253, guid: f34d53e40e9f59c4686fad7f17f9a684, type: 3}
       propertyPath: m_Pivot.x
       value: 0
@@ -18398,9 +18402,9 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8774587602549960317, guid: ff3fbd33686854a42a9f9cae724b2394, type: 3}
       propertyPath: samples.sentences.Array.data[0]
-      value: 'A. else if
+      value: 'A. elif
 
-        B. elif
+        B. else if
 
         C. else'
       objectReference: {fileID: 0}
@@ -20445,7 +20449,7 @@ MonoBehaviour:
   m_Priority: 10
   m_StandbyUpdate: 2
   m_LookAt: {fileID: 0}
-  m_Follow: {fileID: 0}
+  m_Follow: {fileID: 1517091375}
   m_Lens:
     FieldOfView: 60
     OrthographicSize: 1
@@ -20811,7 +20815,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7463429110017815780, guid: f394a90a3eb77a84b8908e6200f194a5, type: 3}
       propertyPath: reqChest
-      value: 3
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7463429110017815780, guid: f394a90a3eb77a84b8908e6200f194a5, type: 3}
+      propertyPath: levelToUnlock
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 4375847293486558285, guid: f394a90a3eb77a84b8908e6200f194a5, type: 3}

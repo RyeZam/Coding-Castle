@@ -23,17 +23,25 @@ public class SettingsMenu : MonoBehaviour
 
         int currentResolutionIndex = 0;
 
-        for (int i =0; i< resolutions.Length; i++)
+        for (int i = 0; i< resolutions.Length; i++)
         {
-            string option = resolutions[i].width + " x " + resolutions[i].height;
-            options.Add(option);
-
-            if (resolutions[i].width == Screen.currentResolution.width && resolutions[i].height == Screen.currentResolution.height)
+            if ((resolutions[i].width == 720 && resolutions[i].height == 480)
+                ||(resolutions[i].width == 1280 && resolutions[i].height == 720)
+                ||(resolutions[i].width == 1280 && resolutions[i].height == 800)
+                ||(resolutions[i].width == 1366 && resolutions[i].height == 768)
+                ||(resolutions[i].width == 1440 && resolutions[i].height == 900)
+                ||(resolutions[i].width == 1920 && resolutions[i].height == 1080)
+)
             {
-                currentResolutionIndex = i;
+                string option = resolutions[i].width + " x " + resolutions[i].height;
+                options.Add(option);
+
+                if (resolutions[i].width == Screen.currentResolution.width && resolutions[i].height == Screen.currentResolution.height)
+                {
+                    currentResolutionIndex = i;
+                }
             }
         }
-
         resolutionDropdown.AddOptions(options);
         resolutionDropdown.value = currentResolutionIndex;
         resolutionDropdown.RefreshShownValue();

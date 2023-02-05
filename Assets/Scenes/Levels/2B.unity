@@ -9310,10 +9310,6 @@ PrefabInstance:
       propertyPath: m_text
       value: Instructions
       objectReference: {fileID: 0}
-    - target: {fileID: 6025919643732898183, guid: 3d2300d8a167982418fc93dfb151bdc7, type: 3}
-      propertyPath: m_HorizontalAlignment
-      value: 2
-      objectReference: {fileID: 0}
     - target: {fileID: 7061336001574252606, guid: 3d2300d8a167982418fc93dfb151bdc7, type: 3}
       propertyPath: m_IsActive
       value: 0

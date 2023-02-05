@@ -10209,6 +10209,10 @@ PrefabInstance:
       propertyPath: reqChest
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 7463429110017815780, guid: f394a90a3eb77a84b8908e6200f194a5, type: 3}
+      propertyPath: levelToUnlock
+      value: 12
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 4375847293486558285, guid: f394a90a3eb77a84b8908e6200f194a5, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: f394a90a3eb77a84b8908e6200f194a5, type: 3}

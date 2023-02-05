@@ -160,10 +160,10 @@ PolygonCollider2D:
   m_AutoTiling: 0
   m_Points:
     m_Paths:
-    - - {x: -0.18665941, y: -0.18662438}
-      - {x: -0.18545015, y: -0.3929106}
-      - {x: 0.1853233, y: -0.39280143}
-      - {x: 0.18325765, y: -0.18993172}
+    - - {x: -0.20698245, y: -0.17773327}
+      - {x: -0.20704348, y: -0.4005314}
+      - {x: 0.21326762, y: -0.40550342}
+      - {x: 0.21247204, y: -0.18358025}
 --- !u!114 &4807117675304782924
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -178,7 +178,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ReqType: 
   ReqNum: 2
-  count: 0
   openSound: {fileID: 8514504453125801875}
 --- !u!82 &8514504453125801875
 AudioSource:
@@ -192,7 +191,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: b9ba4d40beff01943b461583b53cc0ea, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.302
+  m_Volume: 0.4
   m_Pitch: 1
   Loop: 0
   Mute: 0

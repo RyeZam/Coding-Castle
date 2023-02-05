@@ -8,7 +8,7 @@ public class PuzzleOpen : MonoBehaviour
     //public int ftncount = 0;
 
     Animator animator;
-
+    public int levelToUnlock = 4;
     // Start is called before the first frame update
     void Start()
     {
@@ -39,6 +39,8 @@ public class PuzzleOpen : MonoBehaviour
         if (other.CompareTag("Player"))
         {
             FindObjectOfType<LevelClear>().ScoreComputation();
+
+            Inventory.lvl = levelToUnlock;
         }
     }
 
