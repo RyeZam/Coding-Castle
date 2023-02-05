@@ -8065,6 +8065,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 40c0b673e9958114b94e94b66f448e46, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!95 &663563100 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 1907160613014839282, guid: bfb36f0784d7a5648ab8fc91a6bc4e1b, type: 3}
+  m_PrefabInstance: {fileID: 1409874377}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &663563101 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 87494789941652946, guid: bfb36f0784d7a5648ab8fc91a6bc4e1b, type: 3}
+  m_PrefabInstance: {fileID: 1409874377}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &691174614
 GameObject:
   m_ObjectHideFlags: 0
@@ -8149,6 +8165,52 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &754544137
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 754544139}
+  - component: {fileID: 754544138}
+  m_Layer: 0
+  m_Name: InstructManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &754544138
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 754544137}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6c76d21651dda214f8c41660dd77e664, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogueText: {fileID: 1422515154}
+  anim: {fileID: 919139416}
+--- !u!4 &754544139
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 754544137}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 16
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &919139415 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6176588702080587279, guid: 3d2300d8a167982418fc93dfb151bdc7, type: 3}
@@ -8211,6 +8273,7 @@ MonoBehaviour:
   enemyBattleStation: {fileID: 691174616}
   dialogueText: {fileID: 1409874381}
   hintText: {fileID: 1409874380}
+  nameText: {fileID: 663563101}
   playerHUD: {fileID: 1409874379}
   enemyHUD: {fileID: 1409874378}
   yes: 1
@@ -8220,6 +8283,14 @@ MonoBehaviour:
     - grade = 1.75
     - average = "I took {} subjects with a grade of {}"
     - print(average.format(subjects, grade))
+  outs:
+    name: Console
+    sentences:
+    - 
+    - 
+    - 
+    - I took 8 sujects with a grade of 1.75
+  outAnim: {fileID: 663563100}
 --- !u!4 &1198328013
 Transform:
   m_ObjectHideFlags: 0
@@ -9341,11 +9412,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1920355658225229548, guid: 3d2300d8a167982418fc93dfb151bdc7, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 2.0278997
+      value: 2.0279007
       objectReference: {fileID: 0}
     - target: {fileID: 4016928915427629553, guid: 3d2300d8a167982418fc93dfb151bdc7, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 2.0278997
+      value: 2.0279007
       objectReference: {fileID: 0}
     - target: {fileID: 4791396303134401044, guid: 3d2300d8a167982418fc93dfb151bdc7, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
@@ -9403,13 +9474,13 @@ PrefabInstance:
       propertyPath: m_text
       value: Instructions
       objectReference: {fileID: 0}
-    - target: {fileID: 6025919643732898183, guid: 3d2300d8a167982418fc93dfb151bdc7, type: 3}
-      propertyPath: m_HorizontalAlignment
-      value: 2
-      objectReference: {fileID: 0}
     - target: {fileID: 7061336001574252606, guid: 3d2300d8a167982418fc93dfb151bdc7, type: 3}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8026396455489130918, guid: 3d2300d8a167982418fc93dfb151bdc7, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -143.50003
       objectReference: {fileID: 0}
     - target: {fileID: 8478092894848869251, guid: 3d2300d8a167982418fc93dfb151bdc7, type: 3}
       propertyPath: m_Enabled
@@ -9426,18 +9497,18 @@ PrefabInstance:
     - target: {fileID: 8478092894848869251, guid: 3d2300d8a167982418fc93dfb151bdc7, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 1658280882}
+      objectReference: {fileID: 754544138}
     - target: {fileID: 8478092894848869251, guid: 3d2300d8a167982418fc93dfb151bdc7, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 8478092894848869251, guid: 3d2300d8a167982418fc93dfb151bdc7, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: End
+      value: DisplayNextSentence
       objectReference: {fileID: 0}
     - target: {fileID: 8478092894848869251, guid: 3d2300d8a167982418fc93dfb151bdc7, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: btnAnimation, Assembly-CSharp
+      value: DManager, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 8478092894848869251, guid: 3d2300d8a167982418fc93dfb151bdc7, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
@@ -9445,7 +9516,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8679524144841671164, guid: 3d2300d8a167982418fc93dfb151bdc7, type: 3}
       propertyPath: samples.sentences.Array.size
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 8679524144841671164, guid: 3d2300d8a167982418fc93dfb151bdc7, type: 3}
       propertyPath: samples.sentences.Array.data[0]
@@ -9453,6 +9524,22 @@ PrefabInstance:
         named subjects with an integer value of 8 \nCreate a variable named grade
         with a float value of 1.75\nprint a string named average that says: \"I took
         (subject) with a grade of (grade)\""
+      objectReference: {fileID: 0}
+    - target: {fileID: 8679524144841671164, guid: 3d2300d8a167982418fc93dfb151bdc7, type: 3}
+      propertyPath: samples.sentences.Array.data[1]
+      value: 'Hint
+
+        Line 1: create variable subjects with 8 as its value
+
+        Line
+        2: create variable grade with 1.75 as its value
+
+        Line 3: create variable
+        average and put the string "I took{} subjects with a grade of {}" on it
+
+        Line
+        4: use the format() method to print the average variable with the subjects
+        and grade variables'
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3d2300d8a167982418fc93dfb151bdc7, type: 3}

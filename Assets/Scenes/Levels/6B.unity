@@ -8609,6 +8609,7 @@ MonoBehaviour:
   enemyBattleStation: {fileID: 691174616}
   dialogueText: {fileID: 1079400927}
   hintText: {fileID: 1079400926}
+  nameText: {fileID: 1480946636}
   playerHUD: {fileID: 1079400925}
   enemyHUD: {fileID: 1079400924}
   yes: 1
@@ -8617,6 +8618,13 @@ MonoBehaviour:
     - MyString = "Wish you were here!"
     - print(MyString.upper())
     - print(MyString.replace("e", "a"))
+  outs:
+    name: Console
+    sentences:
+    - 
+    - WISH YOU WERE HERE!
+    - wish you wara hara!
+  outAnim: {fileID: 1480946635}
 --- !u!4 &1198328013
 Transform:
   m_ObjectHideFlags: 0
@@ -8863,6 +8871,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!95 &1480946635 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 1907160613014839282, guid: bfb36f0784d7a5648ab8fc91a6bc4e1b, type: 3}
+  m_PrefabInstance: {fileID: 1079400923}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1480946636 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 87494789941652946, guid: bfb36f0784d7a5648ab8fc91a6bc4e1b, type: 3}
+  m_PrefabInstance: {fileID: 1079400923}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1485541105
 GameObject:
   m_ObjectHideFlags: 0
@@ -9081,6 +9105,52 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   myBtn: {fileID: 1658280876}
+--- !u!1 &1738411429
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1738411431}
+  - component: {fileID: 1738411430}
+  m_Layer: 0
+  m_Name: InstructManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1738411430
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1738411429}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6c76d21651dda214f8c41660dd77e664, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogueText: {fileID: 1422515154}
+  anim: {fileID: 919139416}
+--- !u!4 &1738411431
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1738411429}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 16
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1761790498
 GameObject:
   m_ObjectHideFlags: 0
@@ -9387,11 +9457,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1920355658225229548, guid: 3d2300d8a167982418fc93dfb151bdc7, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 2.0278997
+      value: 2.0279007
       objectReference: {fileID: 0}
     - target: {fileID: 4016928915427629553, guid: 3d2300d8a167982418fc93dfb151bdc7, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 2.0278997
+      value: 2.0279007
       objectReference: {fileID: 0}
     - target: {fileID: 4791396303134401044, guid: 3d2300d8a167982418fc93dfb151bdc7, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
@@ -9449,13 +9519,13 @@ PrefabInstance:
       propertyPath: m_text
       value: Instructions
       objectReference: {fileID: 0}
-    - target: {fileID: 6025919643732898183, guid: 3d2300d8a167982418fc93dfb151bdc7, type: 3}
-      propertyPath: m_HorizontalAlignment
-      value: 2
-      objectReference: {fileID: 0}
     - target: {fileID: 7061336001574252606, guid: 3d2300d8a167982418fc93dfb151bdc7, type: 3}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8026396455489130918, guid: 3d2300d8a167982418fc93dfb151bdc7, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -143.50003
       objectReference: {fileID: 0}
     - target: {fileID: 8478092894848869251, guid: 3d2300d8a167982418fc93dfb151bdc7, type: 3}
       propertyPath: m_Enabled
@@ -9472,18 +9542,18 @@ PrefabInstance:
     - target: {fileID: 8478092894848869251, guid: 3d2300d8a167982418fc93dfb151bdc7, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 1658280882}
+      objectReference: {fileID: 1738411430}
     - target: {fileID: 8478092894848869251, guid: 3d2300d8a167982418fc93dfb151bdc7, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 8478092894848869251, guid: 3d2300d8a167982418fc93dfb151bdc7, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: End
+      value: DisplayNextSentence
       objectReference: {fileID: 0}
     - target: {fileID: 8478092894848869251, guid: 3d2300d8a167982418fc93dfb151bdc7, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: btnAnimation, Assembly-CSharp
+      value: DManager, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 8478092894848869251, guid: 3d2300d8a167982418fc93dfb151bdc7, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
@@ -9491,7 +9561,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8679524144841671164, guid: 3d2300d8a167982418fc93dfb151bdc7, type: 3}
       propertyPath: samples.sentences.Array.size
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 8679524144841671164, guid: 3d2300d8a167982418fc93dfb151bdc7, type: 3}
       propertyPath: samples.sentences.Array.data[0]
@@ -9502,6 +9572,19 @@ PrefabInstance:
 
         print it again but this time
         make all letter e to letter a'
+      objectReference: {fileID: 0}
+    - target: {fileID: 8679524144841671164, guid: 3d2300d8a167982418fc93dfb151bdc7, type: 3}
+      propertyPath: samples.sentences.Array.data[1]
+      value: 'Hint
+
+        Line 1: create variable MyString with the string "Wish
+        you were here!" as its value
+
+        Line 2: use the upper() method to print
+        MyString variable
+
+        Line 3: use the replace() method to print MyString
+        variable replacing e and then a.'
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3d2300d8a167982418fc93dfb151bdc7, type: 3}

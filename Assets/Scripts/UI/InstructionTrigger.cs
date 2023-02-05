@@ -6,6 +6,7 @@ public class InstructionTrigger : MonoBehaviour
 {
     public SampleCodes samples;
 
+
     public void TriggerDialogue()
     {
         FindObjectOfType<DManager>().StartDialogue(samples);

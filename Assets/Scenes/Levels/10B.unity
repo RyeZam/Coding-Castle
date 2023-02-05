@@ -7633,6 +7633,52 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &272705572
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 272705574}
+  - component: {fileID: 272705573}
+  m_Layer: 0
+  m_Name: InstructManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &272705573
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 272705572}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6c76d21651dda214f8c41660dd77e664, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogueText: {fileID: 1422515154}
+  anim: {fileID: 919139416}
+--- !u!4 &272705574
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 272705572}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 16
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &273253348
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8110,6 +8156,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 91d6a2745dbe9f24daadb4bc303db432, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!95 &496606118 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 1907160613014839282, guid: bfb36f0784d7a5648ab8fc91a6bc4e1b, type: 3}
+  m_PrefabInstance: {fileID: 273253348}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &496606119 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 87494789941652946, guid: bfb36f0784d7a5648ab8fc91a6bc4e1b, type: 3}
+  m_PrefabInstance: {fileID: 273253348}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &619123210
 GameObject:
   m_ObjectHideFlags: 0
@@ -8497,17 +8559,38 @@ MonoBehaviour:
   enemyBattleStation: {fileID: 691174616}
   dialogueText: {fileID: 273253352}
   hintText: {fileID: 273253351}
+  nameText: {fileID: 496606119}
   playerHUD: {fileID: 273253350}
   enemyHUD: {fileID: 273253349}
   yes: 1
   answers:
     sentences:
-    - z = 1
-    - 'while z <= 10:'
-    - '   i += 1'
+    - z = 0
+    - 'while z < 7:'
+    - '   z += 1'
     - '   if z == 3 or z == 7:'
     - '      continue'
-    - '   print(i)'
+    - '   print(z)'
+  outs:
+    name: Console
+    sentences:
+    - 
+    - 
+    - 
+    - 
+    - 
+    - '1
+
+      2
+
+      3
+
+      4
+
+      5
+
+      6'
+  outAnim: {fileID: 496606118}
 --- !u!4 &1198328013
 Transform:
   m_ObjectHideFlags: 0
@@ -9419,11 +9502,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1920355658225229548, guid: 3d2300d8a167982418fc93dfb151bdc7, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 2.0278997
+      value: 2.0279007
+      objectReference: {fileID: 0}
+    - target: {fileID: 3216103213384914548, guid: 3d2300d8a167982418fc93dfb151bdc7, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 211.40002
+      objectReference: {fileID: 0}
+    - target: {fileID: 3216103213384914548, guid: 3d2300d8a167982418fc93dfb151bdc7, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -185.00002
       objectReference: {fileID: 0}
     - target: {fileID: 4016928915427629553, guid: 3d2300d8a167982418fc93dfb151bdc7, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 2.0278997
+      value: 2.0279007
       objectReference: {fileID: 0}
     - target: {fileID: 4791396303134401044, guid: 3d2300d8a167982418fc93dfb151bdc7, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
@@ -9481,13 +9572,13 @@ PrefabInstance:
       propertyPath: m_text
       value: Instructions
       objectReference: {fileID: 0}
-    - target: {fileID: 6025919643732898183, guid: 3d2300d8a167982418fc93dfb151bdc7, type: 3}
-      propertyPath: m_HorizontalAlignment
-      value: 2
-      objectReference: {fileID: 0}
     - target: {fileID: 7061336001574252606, guid: 3d2300d8a167982418fc93dfb151bdc7, type: 3}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8026396455489130918, guid: 3d2300d8a167982418fc93dfb151bdc7, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -143.50003
       objectReference: {fileID: 0}
     - target: {fileID: 8478092894848869251, guid: 3d2300d8a167982418fc93dfb151bdc7, type: 3}
       propertyPath: m_Enabled
@@ -9504,18 +9595,18 @@ PrefabInstance:
     - target: {fileID: 8478092894848869251, guid: 3d2300d8a167982418fc93dfb151bdc7, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 1658280882}
+      objectReference: {fileID: 272705573}
     - target: {fileID: 8478092894848869251, guid: 3d2300d8a167982418fc93dfb151bdc7, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 8478092894848869251, guid: 3d2300d8a167982418fc93dfb151bdc7, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: End
+      value: DisplayNextSentence
       objectReference: {fileID: 0}
     - target: {fileID: 8478092894848869251, guid: 3d2300d8a167982418fc93dfb151bdc7, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: btnAnimation, Assembly-CSharp
+      value: DManager, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 8478092894848869251, guid: 3d2300d8a167982418fc93dfb151bdc7, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
@@ -9523,15 +9614,24 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8679524144841671164, guid: 3d2300d8a167982418fc93dfb151bdc7, type: 3}
       propertyPath: samples.sentences.Array.size
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 8679524144841671164, guid: 3d2300d8a167982418fc93dfb151bdc7, type: 3}
       propertyPath: samples.sentences.Array.data[0]
-      value: 'using a while loop, print numbers 1-10 with an indexing variable of
-        z (use the comparison operator <=), but skip over numbers 3 and 7. Increment
-        z on the first line under the loop.
+      value: 'using a while loop, print numbers 1-7 with an indexing variable of
+        z (use the comparison operator <, and 0 as index), but skip over numbers
+        3 and 7. Increment z on the first line under the loop.
 
-        (use three spaces for indentation)'
+        (use three
+        spaces for indentation)'
+      objectReference: {fileID: 0}
+    - target: {fileID: 8679524144841671164, guid: 3d2300d8a167982418fc93dfb151bdc7, type: 3}
+      propertyPath: samples.sentences.Array.data[1]
+      value: "HInt\nLine 1: create first variable z with 0 as its value\nLine 2:
+        create a loop that will run while z < 7\nLine 3: indent with three spaces
+        then type the short version of z = z + 1\nLine 4:  indent with three spaces
+        then ask if z == 3 or z == 7 \nLine 5: indent with six spaces and tell the
+        loop to continue\nLine 6: print z"
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3d2300d8a167982418fc93dfb151bdc7, type: 3}

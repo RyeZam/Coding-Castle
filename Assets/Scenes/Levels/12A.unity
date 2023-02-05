@@ -1181,7 +1181,7 @@ Transform:
   - {fileID: 1448166008}
   - {fileID: 1922896706}
   m_Father: {fileID: 0}
-  m_RootOrder: 19
+  m_RootOrder: 20
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &108467403
 GameObject:
@@ -1734,7 +1734,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 461456377588013320, guid: 8629f5632daf92540a2dbdf45d490e0b, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 5.383
+      value: 2.89
       objectReference: {fileID: 0}
     - target: {fileID: 461456377588013320, guid: 8629f5632daf92540a2dbdf45d490e0b, type: 3}
       propertyPath: m_LocalPosition.z
@@ -2574,7 +2574,7 @@ Transform:
   - {fileID: 5554254}
   - {fileID: 1939161377}
   m_Father: {fileID: 0}
-  m_RootOrder: 16
+  m_RootOrder: 17
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &235723764
 PrefabInstance:
@@ -2695,16 +2695,17 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8774587602549960317, guid: ff3fbd33686854a42a9f9cae724b2394, type: 3}
       propertyPath: samples.sentences.Array.data[0]
-      value: 'A. The code will run smoothly
+      value: 'A. att
 
-        B. The code will have an error
+        B. def
 
-        C.
-        The machine will crash'
+        C. create
+
+        D. Def'
       objectReference: {fileID: 0}
     - target: {fileID: 8774587602549960317, guid: ff3fbd33686854a42a9f9cae724b2394, type: 3}
       propertyPath: dialogue.sentences.Array.data[0]
-      value: What happens if you skip indentation?
+      value: What keyword is used to create a function?
       objectReference: {fileID: 0}
     - target: {fileID: 9028537640560769987, guid: ff3fbd33686854a42a9f9cae724b2394, type: 3}
       propertyPath: m_Name
@@ -3237,11 +3238,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 6146920519209301589, guid: 29c6fe26dda702d4b9f36f0c77dc609f, type: 3}
       propertyPath: samples.sentences.Array.size
-      value: 10
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 6146920519209301589, guid: 29c6fe26dda702d4b9f36f0c77dc609f, type: 3}
       propertyPath: dialogue.sentences.Array.size
-      value: 12
+      value: 21
       objectReference: {fileID: 0}
     - target: {fileID: 6146920519209301589, guid: 29c6fe26dda702d4b9f36f0c77dc609f, type: 3}
       propertyPath: samples.sentences.Array.data[0]
@@ -3249,76 +3250,180 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6146920519209301589, guid: 29c6fe26dda702d4b9f36f0c77dc609f, type: 3}
       propertyPath: samples.sentences.Array.data[3]
-      value: "if 7>4:\n    print(\"7 is greater than 4\")"
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 6146920519209301589, guid: 29c6fe26dda702d4b9f36f0c77dc609f, type: 3}
       propertyPath: samples.sentences.Array.data[4]
+      value: "def my_function():\n   print(\"printing from a function\")"
+      objectReference: {fileID: 0}
+    - target: {fileID: 6146920519209301589, guid: 29c6fe26dda702d4b9f36f0c77dc609f, type: 3}
+      propertyPath: samples.sentences.Array.data[5]
+      value: "def my_function():\n   print(\"printing from a function\")\n\nmy_function()"
+      objectReference: {fileID: 0}
+    - target: {fileID: 6146920519209301589, guid: 29c6fe26dda702d4b9f36f0c77dc609f, type: 3}
+      propertyPath: samples.sentences.Array.data[6]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 6146920519209301589, guid: 29c6fe26dda702d4b9f36f0c77dc609f, type: 3}
+      propertyPath: samples.sentences.Array.data[7]
+      value: "def name(fname):\n   print(fname + \"Dela Cruz\")\n\nname(\"Juan\")"
+      objectReference: {fileID: 0}
+    - target: {fileID: 6146920519209301589, guid: 29c6fe26dda702d4b9f36f0c77dc609f, type: 3}
+      propertyPath: samples.sentences.Array.data[8]
       value: 
       objectReference: {fileID: 0}
     - target: {fileID: 6146920519209301589, guid: 29c6fe26dda702d4b9f36f0c77dc609f, type: 3}
       propertyPath: samples.sentences.Array.data[9]
-      value: '#This is a python comment'
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 6146920519209301589, guid: 29c6fe26dda702d4b9f36f0c77dc609f, type: 3}
       propertyPath: dialogue.sentences.Array.data[0]
-      value: Hello There! Welcome to your first lesson!
+      value: Congratulations on making it this far Mr. Knight! Just a little more
+        and we are finsihed!
       objectReference: {fileID: 0}
     - target: {fileID: 6146920519209301589, guid: 29c6fe26dda702d4b9f36f0c77dc609f, type: 3}
       propertyPath: dialogue.sentences.Array.data[1]
-      value: In this first lesson, we will be talking about the Python Programming
-        Syntax.
+      value: In this floor, you will learn about Python functions.
       objectReference: {fileID: 0}
     - target: {fileID: 6146920519209301589, guid: 29c6fe26dda702d4b9f36f0c77dc609f, type: 3}
       propertyPath: dialogue.sentences.Array.data[2]
-      value: Python is a type of programming language in which indentation has actually
-        a meaningful syntax function.
+      value: In programming, a function is a block of code that only runs once it
+        is called.
       objectReference: {fileID: 0}
     - target: {fileID: 6146920519209301589, guid: 29c6fe26dda702d4b9f36f0c77dc609f, type: 3}
       propertyPath: dialogue.sentences.Array.data[3]
-      value: Python uses indentation to indicate a block of code
+      value: You can pass data into functions. These data are called parameters.
+        Some functions return data as a result.
       objectReference: {fileID: 0}
     - target: {fileID: 6146920519209301589, guid: 29c6fe26dda702d4b9f36f0c77dc609f, type: 3}
       propertyPath: dialogue.sentences.Array.data[4]
-      value: What happens if you skip indentation? Python will give you a syntax
-        error.
+      value: To create functions, you simply need to use the def keyword.
       objectReference: {fileID: 0}
     - target: {fileID: 6146920519209301589, guid: 29c6fe26dda702d4b9f36f0c77dc609f, type: 3}
       propertyPath: dialogue.sentences.Array.data[5]
-      value: It doesn't matter how many spaces you put, although it has to be atleast
-        one.
+      value: Now, to call the function you created, just use the function name followed
+        by a parenthesis.
       objectReference: {fileID: 0}
     - target: {fileID: 6146920519209301589, guid: 29c6fe26dda702d4b9f36f0c77dc609f, type: 3}
       propertyPath: dialogue.sentences.Array.data[6]
-      value: You also need to use the same number of indents in the same block of
-        code.
+      value: Next, to pass information to functions, you can give them arguments.
       objectReference: {fileID: 0}
     - target: {fileID: 6146920519209301589, guid: 29c6fe26dda702d4b9f36f0c77dc609f, type: 3}
       propertyPath: dialogue.sentences.Array.data[7]
-      value: Next we will be talking about variables, and how Python only creates
-        them when assigned a value.
+      value: Arguments are specified inside the parantheses after the function name.
+        You can add as many as you want just put a comma to separate them.
       objectReference: {fileID: 0}
     - target: {fileID: 6146920519209301589, guid: 29c6fe26dda702d4b9f36f0c77dc609f, type: 3}
       propertyPath: dialogue.sentences.Array.data[8]
-      value: You will learn more about this on the following lesson. Next is the
-        commenting capability of Python.
+      value: But wait! "Didn;t you tell me earlier that parameters are used to pass
+        data in functions?" is what you may be asking.
       objectReference: {fileID: 0}
     - target: {fileID: 6146920519209301589, guid: 29c6fe26dda702d4b9f36f0c77dc609f, type: 3}
       propertyPath: dialogue.sentences.Array.data[9]
-      value: Comments start with a #, and Python will render the rest of the line
-        as a comment.
+      value: Parameters and arguments means the same thing! They are the information
+        passed into the function.
+      objectReference: {fileID: 0}
+    - target: {fileID: 6146920519209301589, guid: 29c6fe26dda702d4b9f36f0c77dc609f, type: 3}
+      propertyPath: samples.sentences.Array.data[10]
+      value: 'Parameters are the variable that is listed inside the parentheses
+
+
+        Argument
+        is the value inside the parameter that is passed inside the function.'
+      objectReference: {fileID: 0}
+    - target: {fileID: 6146920519209301589, guid: 29c6fe26dda702d4b9f36f0c77dc609f, type: 3}
+      propertyPath: samples.sentences.Array.data[11]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 6146920519209301589, guid: 29c6fe26dda702d4b9f36f0c77dc609f, type: 3}
+      propertyPath: samples.sentences.Array.data[12]
+      value: "def name(fname, lname):\n   print(fname + \" \" + lname)\n\nname(\"Juan\",
+        \"Dela Cruz\")"
+      objectReference: {fileID: 0}
+    - target: {fileID: 6146920519209301589, guid: 29c6fe26dda702d4b9f36f0c77dc609f, type: 3}
+      propertyPath: samples.sentences.Array.data[13]
+      value: "def name(fname, lname):\n   print(fname + \" \" + lname)\n\nname(\"Juan\",
+        \"Dela Cruz\")"
+      objectReference: {fileID: 0}
+    - target: {fileID: 6146920519209301589, guid: 29c6fe26dda702d4b9f36f0c77dc609f, type: 3}
+      propertyPath: samples.sentences.Array.data[14]
+      value: "def toys(toy1, toy2):\n   print(\"my favorite toy is\" + toy2)\n\ntoys(toy1=\"doll\",
+        toy2=\"car\")"
+      objectReference: {fileID: 0}
+    - target: {fileID: 6146920519209301589, guid: 29c6fe26dda702d4b9f36f0c77dc609f, type: 3}
+      propertyPath: samples.sentences.Array.data[15]
+      value: "def function(gadget = \"laptop\"):\n   print(\"I have a \" + toy2)\n\nfunction(\"phone\")\nfuncion()\n\nOutput:\nI
+        have a phone\nI have a laptop"
+      objectReference: {fileID: 0}
+    - target: {fileID: 6146920519209301589, guid: 29c6fe26dda702d4b9f36f0c77dc609f, type: 3}
+      propertyPath: samples.sentences.Array.data[16]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 6146920519209301589, guid: 29c6fe26dda702d4b9f36f0c77dc609f, type: 3}
+      propertyPath: samples.sentences.Array.data[17]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 6146920519209301589, guid: 29c6fe26dda702d4b9f36f0c77dc609f, type: 3}
+      propertyPath: samples.sentences.Array.data[18]
+      value: "def function(food):\n   for x in food:\n      print(x)\n\nfruits =
+        [\"apple\", \"orange\", \"mango\"]\nfunction(fruits)"
+      objectReference: {fileID: 0}
+    - target: {fileID: 6146920519209301589, guid: 29c6fe26dda702d4b9f36f0c77dc609f, type: 3}
+      propertyPath: samples.sentences.Array.data[19]
+      value: "def function(x):\n   return 7 * x\n\nprint(function(15))"
       objectReference: {fileID: 0}
     - target: {fileID: 6146920519209301589, guid: 29c6fe26dda702d4b9f36f0c77dc609f, type: 3}
       propertyPath: dialogue.sentences.Array.data[10]
-      value: Now, that the first lesson is finished, you need to answer the quiz
-        to proceed to the next part.
+      value: 'But let us look at it this way to differentiate them:'
       objectReference: {fileID: 0}
     - target: {fileID: 6146920519209301589, guid: 29c6fe26dda702d4b9f36f0c77dc609f, type: 3}
       propertyPath: dialogue.sentences.Array.data[11]
-      value: Good luck Mr. Knight!
+      value: Okay now that is out of the way, let us get back to the lesson!
       objectReference: {fileID: 0}
     - target: {fileID: 6146920519209301589, guid: 29c6fe26dda702d4b9f36f0c77dc609f, type: 3}
       propertyPath: dialogue.sentences.Array.data[12]
-      value: 
+      value: 'Commonly, you must call your function with the correct number of arguments
+        as it have when it is defined. '
+      objectReference: {fileID: 0}
+    - target: {fileID: 6146920519209301589, guid: 29c6fe26dda702d4b9f36f0c77dc609f, type: 3}
+      propertyPath: dialogue.sentences.Array.data[13]
+      value: If your function has two arguments, then you must call the function
+        with two arguments, not more, not less.
+      objectReference: {fileID: 0}
+    - target: {fileID: 6146920519209301589, guid: 29c6fe26dda702d4b9f36f0c77dc609f, type: 3}
+      propertyPath: dialogue.sentences.Array.data[14]
+      value: You can also send arguments by using the key=value form.
+      objectReference: {fileID: 0}
+    - target: {fileID: 6146920519209301589, guid: 29c6fe26dda702d4b9f36f0c77dc609f, type: 3}
+      propertyPath: dialogue.sentences.Array.data[15]
+      value: There are instances that you can call a function without arguments,
+        that is only if you set a default parameter value.
+      objectReference: {fileID: 0}
+    - target: {fileID: 6146920519209301589, guid: 29c6fe26dda702d4b9f36f0c77dc609f, type: 3}
+      propertyPath: dialogue.sentences.Array.data[16]
+      value: Please be wary of the data type of the argument that you are passing.
+        Although you can send any data type into an argument, it will be treated
+        as such inside of the function
+      objectReference: {fileID: 0}
+    - target: {fileID: 6146920519209301589, guid: 29c6fe26dda702d4b9f36f0c77dc609f, type: 3}
+      propertyPath: dialogue.sentences.Array.data[17]
+      value: So if you send a string into the function, then the argument will be
+        treated as a string. If you send a numerical data type, then it will be treated
+        as so.
+      objectReference: {fileID: 0}
+    - target: {fileID: 6146920519209301589, guid: 29c6fe26dda702d4b9f36f0c77dc609f, type: 3}
+      propertyPath: dialogue.sentences.Array.data[18]
+      value: You can also pass lists!
+      objectReference: {fileID: 0}
+    - target: {fileID: 6146920519209301589, guid: 29c6fe26dda702d4b9f36f0c77dc609f, type: 3}
+      propertyPath: dialogue.sentences.Array.data[19]
+      value: There are functions that returns a value that you can use in your program.
+        To do that, use the return statement.
+      objectReference: {fileID: 0}
+    - target: {fileID: 6146920519209301589, guid: 29c6fe26dda702d4b9f36f0c77dc609f, type: 3}
+      propertyPath: dialogue.sentences.Array.data[20]
+      value: There's the basics of functions in Python! See you on the next lesson!
+        Get those bugs for me will ya?
       objectReference: {fileID: 0}
     - target: {fileID: 9194797209832329224, guid: 29c6fe26dda702d4b9f36f0c77dc609f, type: 3}
       propertyPath: m_Name
@@ -4699,7 +4804,7 @@ Transform:
   - {fileID: 567707869}
   - {fileID: 833223408}
   m_Father: {fileID: 0}
-  m_RootOrder: 15
+  m_RootOrder: 16
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &533018603
 PrefabInstance:
@@ -6096,7 +6201,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 461456377588013320, guid: 8629f5632daf92540a2dbdf45d490e0b, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -2.216
+      value: -4.7089996
       objectReference: {fileID: 0}
     - target: {fileID: 461456377588013320, guid: 8629f5632daf92540a2dbdf45d490e0b, type: 3}
       propertyPath: m_LocalPosition.z
@@ -6260,15 +6365,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8774587602549960317, guid: ff3fbd33686854a42a9f9cae724b2394, type: 3}
       propertyPath: samples.sentences.Array.data[0]
-      value: 'A. $
+      value: 'A. give it a name
 
-        B. /*
+        B. don''t call the function
 
-        C.  #'
+        C.
+        define a default parameter
+
+        D. none of the above'
       objectReference: {fileID: 0}
     - target: {fileID: 8774587602549960317, guid: ff3fbd33686854a42a9f9cae724b2394, type: 3}
       propertyPath: dialogue.sentences.Array.data[0]
-      value: How do you comment a line in Python?
+      value: What do we do so that when we call a function without argument, it still
+        works?
       objectReference: {fileID: 0}
     - target: {fileID: 9028537640560769987, guid: ff3fbd33686854a42a9f9cae724b2394, type: 3}
       propertyPath: m_Name
@@ -6714,7 +6823,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1037982508038038748, guid: 68620abf890a1174d9526ddeb37bc9d6, type: 3}
       propertyPath: m_RootOrder
-      value: 6
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 1037982508038038748, guid: 68620abf890a1174d9526ddeb37bc9d6, type: 3}
       propertyPath: m_LocalPosition.x
@@ -7723,7 +7832,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 461456377588013320, guid: 8629f5632daf92540a2dbdf45d490e0b, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -4.87
+      value: -7.3629994
       objectReference: {fileID: 0}
     - target: {fileID: 461456377588013320, guid: 8629f5632daf92540a2dbdf45d490e0b, type: 3}
       propertyPath: m_LocalPosition.z
@@ -7993,7 +8102,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 461456377588013320, guid: 8629f5632daf92540a2dbdf45d490e0b, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 2.907
+      value: 0.4140005
       objectReference: {fileID: 0}
     - target: {fileID: 461456377588013320, guid: 8629f5632daf92540a2dbdf45d490e0b, type: 3}
       propertyPath: m_LocalPosition.z
@@ -8681,15 +8790,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8774587602549960317, guid: ff3fbd33686854a42a9f9cae724b2394, type: 3}
       propertyPath: samples.sentences.Array.data[0]
-      value: 'A. $
+      value: 'A. False
 
-        B. /*
+        B. True
 
-        C.  #'
+        C. A and B
+
+        D. None of the
+        above'
       objectReference: {fileID: 0}
     - target: {fileID: 8774587602549960317, guid: ff3fbd33686854a42a9f9cae724b2394, type: 3}
       propertyPath: dialogue.sentences.Array.data[0]
-      value: How do you comment a line in Python?
+      value: Functions should be called with the correct number of arguments.
       objectReference: {fileID: 0}
     - target: {fileID: 9028537640560769987, guid: ff3fbd33686854a42a9f9cae724b2394, type: 3}
       propertyPath: m_Name
@@ -8828,7 +8940,7 @@ Transform:
   - {fileID: 617875148}
   - {fileID: 189262122}
   m_Father: {fileID: 0}
-  m_RootOrder: 17
+  m_RootOrder: 18
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &913653897
 PrefabInstance:
@@ -9135,15 +9247,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8774587602549960317, guid: ff3fbd33686854a42a9f9cae724b2394, type: 3}
       propertyPath: samples.sentences.Array.data[0]
-      value: 'A. Tabs
+      value: 'A. Argument
 
-        B. White Space
+        B. Paremeter
 
-        C. Indent'
+        C. Function
+
+        D.
+        Sets'
       objectReference: {fileID: 0}
     - target: {fileID: 8774587602549960317, guid: ff3fbd33686854a42a9f9cae724b2394, type: 3}
       propertyPath: dialogue.sentences.Array.data[0]
-      value: It refers to the spaces at the beginning of a code line.
+      value: It refers to the value being passed when the function is called.
       objectReference: {fileID: 0}
     - target: {fileID: 9028537640560769987, guid: ff3fbd33686854a42a9f9cae724b2394, type: 3}
       propertyPath: m_Name
@@ -9564,7 +9679,7 @@ Transform:
   - {fileID: 309942906}
   - {fileID: 428262764}
   m_Father: {fileID: 0}
-  m_RootOrder: 13
+  m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &993655801
 GameObject:
@@ -9608,6 +9723,22 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 260185199583014871, guid: 4b465d942bc587d4995609f7ed9daace, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1953248891}
+    - target: {fileID: 260185199583014871, guid: 4b465d942bc587d4995609f7ed9daace, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: Pause
+      objectReference: {fileID: 0}
+    - target: {fileID: 260185199583014871, guid: 4b465d942bc587d4995609f7ed9daace, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: PauseMenu, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 260185199583014871, guid: 4b465d942bc587d4995609f7ed9daace, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 2824705244267631753, guid: 4b465d942bc587d4995609f7ed9daace, type: 3}
       propertyPath: m_Name
       value: Canvas_Player
@@ -9622,7 +9753,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2824705244267631765, guid: 4b465d942bc587d4995609f7ed9daace, type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 2824705244267631765, guid: 4b465d942bc587d4995609f7ed9daace, type: 3}
       propertyPath: m_AnchorMax.x
@@ -10032,7 +10163,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1497483618129186136, guid: f394a90a3eb77a84b8908e6200f194a5, type: 3}
       propertyPath: m_RootOrder
-      value: 4
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 1497483618129186136, guid: f394a90a3eb77a84b8908e6200f194a5, type: 3}
       propertyPath: m_LocalPosition.x
@@ -10078,8 +10209,20 @@ PrefabInstance:
       propertyPath: reqChest
       value: 1
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 4375847293486558285, guid: f394a90a3eb77a84b8908e6200f194a5, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: f394a90a3eb77a84b8908e6200f194a5, type: 3}
+--- !u!114 &1027368171 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7463429110017815780, guid: f394a90a3eb77a84b8908e6200f194a5, type: 3}
+  m_PrefabInstance: {fileID: 1027368170}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1280497c05a7c8c4297aa8497a2959a0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1027912247
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10097,7 +10240,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 461456377588013320, guid: 8629f5632daf92540a2dbdf45d490e0b, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.343
+      value: -2.1499996
       objectReference: {fileID: 0}
     - target: {fileID: 461456377588013320, guid: 8629f5632daf92540a2dbdf45d490e0b, type: 3}
       propertyPath: m_LocalPosition.z
@@ -10586,7 +10729,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1060340846}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: -0.06, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -10933,7 +11076,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6241328604789008203, guid: ff355188ba6d4e94e889a32699ccc1db, type: 3}
       propertyPath: m_RootOrder
-      value: 9
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 6241328604789008203, guid: ff355188ba6d4e94e889a32699ccc1db, type: 3}
       propertyPath: m_LocalPosition.x
@@ -11484,7 +11627,7 @@ Transform:
   - {fileID: 634690476}
   - {fileID: 1060340847}
   m_Father: {fileID: 0}
-  m_RootOrder: 14
+  m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1131688872
 PrefabInstance:
@@ -11592,7 +11735,7 @@ Transform:
   - {fileID: 16733309}
   - {fileID: 417220693}
   m_Father: {fileID: 0}
-  m_RootOrder: 11
+  m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1143132587
 PrefabInstance:
@@ -13051,7 +13194,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1283702630
 PrefabInstance:
@@ -15212,6 +15355,107 @@ Transform:
   m_Father: {fileID: 634690476}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &1532617812
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 8997749939141603971, guid: 666a0eebb92c2b94db49c504f7949006, type: 3}
+      propertyPath: m_Name
+      value: ChestCanvas
+      objectReference: {fileID: 0}
+    - target: {fileID: 8997749939141603982, guid: 666a0eebb92c2b94db49c504f7949006, type: 3}
+      propertyPath: m_Camera
+      value: 
+      objectReference: {fileID: 1551121323}
+    - target: {fileID: 8997749939141603983, guid: 666a0eebb92c2b94db49c504f7949006, type: 3}
+      propertyPath: m_Pivot.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8997749939141603983, guid: 666a0eebb92c2b94db49c504f7949006, type: 3}
+      propertyPath: m_Pivot.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8997749939141603983, guid: 666a0eebb92c2b94db49c504f7949006, type: 3}
+      propertyPath: m_RootOrder
+      value: 23
+      objectReference: {fileID: 0}
+    - target: {fileID: 8997749939141603983, guid: 666a0eebb92c2b94db49c504f7949006, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8997749939141603983, guid: 666a0eebb92c2b94db49c504f7949006, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8997749939141603983, guid: 666a0eebb92c2b94db49c504f7949006, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8997749939141603983, guid: 666a0eebb92c2b94db49c504f7949006, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8997749939141603983, guid: 666a0eebb92c2b94db49c504f7949006, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8997749939141603983, guid: 666a0eebb92c2b94db49c504f7949006, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8997749939141603983, guid: 666a0eebb92c2b94db49c504f7949006, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8997749939141603983, guid: 666a0eebb92c2b94db49c504f7949006, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8997749939141603983, guid: 666a0eebb92c2b94db49c504f7949006, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8997749939141603983, guid: 666a0eebb92c2b94db49c504f7949006, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8997749939141603983, guid: 666a0eebb92c2b94db49c504f7949006, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8997749939141603983, guid: 666a0eebb92c2b94db49c504f7949006, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8997749939141603983, guid: 666a0eebb92c2b94db49c504f7949006, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8997749939141603983, guid: 666a0eebb92c2b94db49c504f7949006, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8997749939141603983, guid: 666a0eebb92c2b94db49c504f7949006, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8997749939141603983, guid: 666a0eebb92c2b94db49c504f7949006, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8997749939141603983, guid: 666a0eebb92c2b94db49c504f7949006, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8997749939141603983, guid: 666a0eebb92c2b94db49c504f7949006, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 666a0eebb92c2b94db49c504f7949006, type: 3}
 --- !u!1 &1536246208
 GameObject:
   m_ObjectHideFlags: 0
@@ -15246,7 +15490,7 @@ Transform:
   - {fileID: 2130349291}
   - {fileID: 1209782489}
   m_Father: {fileID: 0}
-  m_RootOrder: 18
+  m_RootOrder: 19
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1548441347
 GameObject:
@@ -15404,7 +15648,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1564303851
 GameObject:
@@ -15522,7 +15766,7 @@ Transform:
   - {fileID: 269413150}
   - {fileID: 932809204}
   m_Father: {fileID: 0}
-  m_RootOrder: 20
+  m_RootOrder: 21
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1568220172
 PrefabInstance:
@@ -16219,7 +16463,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 10
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!95 &1632182613
 Animator:
@@ -16360,15 +16604,17 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8774587602549960317, guid: ff3fbd33686854a42a9f9cae724b2394, type: 3}
       propertyPath: samples.sentences.Array.data[0]
-      value: 'A. $
+      value: 'A. let
 
-        B. /*
+        B. give
 
-        C.  #'
+        C. pass
+
+        D. return'
       objectReference: {fileID: 0}
     - target: {fileID: 8774587602549960317, guid: ff3fbd33686854a42a9f9cae724b2394, type: 3}
       propertyPath: dialogue.sentences.Array.data[0]
-      value: How do you comment a line in Python?
+      value: What statements allows you to return a value from a function?
       objectReference: {fileID: 0}
     - target: {fileID: 9028537640560769987, guid: ff3fbd33686854a42a9f9cae724b2394, type: 3}
       propertyPath: m_Name
@@ -17132,7 +17378,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 3288125422505694301, guid: 8f101bd1de96ac84cb66e45daa804fdd, type: 3}
       propertyPath: m_RootOrder
-      value: 3
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 3288125422505694301, guid: 8f101bd1de96ac84cb66e45daa804fdd, type: 3}
       propertyPath: m_LocalPosition.x
@@ -17378,6 +17624,123 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 2028657284979032008, guid: 9bcce504a6d9da54584e46ff74aba296, type: 3}
   m_PrefabInstance: {fileID: 1700645237}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1704341400
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 5275883413902102565, guid: f1c52c147aa0e8c43920ca1c695d7188, type: 3}
+      propertyPath: m_Camera
+      value: 
+      objectReference: {fileID: 1551121323}
+    - target: {fileID: 5275883413902102566, guid: f1c52c147aa0e8c43920ca1c695d7188, type: 3}
+      propertyPath: m_Name
+      value: ScoreCanvas
+      objectReference: {fileID: 0}
+    - target: {fileID: 5275883413902102586, guid: f1c52c147aa0e8c43920ca1c695d7188, type: 3}
+      propertyPath: m_Pivot.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5275883413902102586, guid: f1c52c147aa0e8c43920ca1c695d7188, type: 3}
+      propertyPath: m_Pivot.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5275883413902102586, guid: f1c52c147aa0e8c43920ca1c695d7188, type: 3}
+      propertyPath: m_RootOrder
+      value: 22
+      objectReference: {fileID: 0}
+    - target: {fileID: 5275883413902102586, guid: f1c52c147aa0e8c43920ca1c695d7188, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5275883413902102586, guid: f1c52c147aa0e8c43920ca1c695d7188, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5275883413902102586, guid: f1c52c147aa0e8c43920ca1c695d7188, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5275883413902102586, guid: f1c52c147aa0e8c43920ca1c695d7188, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5275883413902102586, guid: f1c52c147aa0e8c43920ca1c695d7188, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5275883413902102586, guid: f1c52c147aa0e8c43920ca1c695d7188, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5275883413902102586, guid: f1c52c147aa0e8c43920ca1c695d7188, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5275883413902102586, guid: f1c52c147aa0e8c43920ca1c695d7188, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5275883413902102586, guid: f1c52c147aa0e8c43920ca1c695d7188, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5275883413902102586, guid: f1c52c147aa0e8c43920ca1c695d7188, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5275883413902102586, guid: f1c52c147aa0e8c43920ca1c695d7188, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5275883413902102586, guid: f1c52c147aa0e8c43920ca1c695d7188, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5275883413902102586, guid: f1c52c147aa0e8c43920ca1c695d7188, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5275883413902102586, guid: f1c52c147aa0e8c43920ca1c695d7188, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5275883413902102586, guid: f1c52c147aa0e8c43920ca1c695d7188, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5275883413902102586, guid: f1c52c147aa0e8c43920ca1c695d7188, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5275883413902102586, guid: f1c52c147aa0e8c43920ca1c695d7188, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5275883413902102586, guid: f1c52c147aa0e8c43920ca1c695d7188, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5275883414170889440, guid: f1c52c147aa0e8c43920ca1c695d7188, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1027368171}
+    - target: {fileID: 5275883414170889440, guid: f1c52c147aa0e8c43920ca1c695d7188, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: OnNext
+      objectReference: {fileID: 0}
+    - target: {fileID: 5275883414170889440, guid: f1c52c147aa0e8c43920ca1c695d7188, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: DoorOpen, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 5275883414170889440, guid: f1c52c147aa0e8c43920ca1c695d7188, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: f1c52c147aa0e8c43920ca1c695d7188, type: 3}
 --- !u!1001 &1715242087
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -18622,7 +18985,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1807039742
 PrefabInstance:
@@ -19950,6 +20313,118 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 2630276636899430661, guid: 48182704e347e77489867434f33fba2d, type: 3}
   m_PrefabInstance: {fileID: 1939161376}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1953248890
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 5195621030686544193, guid: f34d53e40e9f59c4686fad7f17f9a684, type: 3}
+      propertyPath: m_Name
+      value: PauseCanvas 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5195621030686544252, guid: f34d53e40e9f59c4686fad7f17f9a684, type: 3}
+      propertyPath: m_Camera
+      value: 
+      objectReference: {fileID: 1551121323}
+    - target: {fileID: 5195621030686544253, guid: f34d53e40e9f59c4686fad7f17f9a684, type: 3}
+      propertyPath: m_Pivot.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5195621030686544253, guid: f34d53e40e9f59c4686fad7f17f9a684, type: 3}
+      propertyPath: m_Pivot.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5195621030686544253, guid: f34d53e40e9f59c4686fad7f17f9a684, type: 3}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5195621030686544253, guid: f34d53e40e9f59c4686fad7f17f9a684, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5195621030686544253, guid: f34d53e40e9f59c4686fad7f17f9a684, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5195621030686544253, guid: f34d53e40e9f59c4686fad7f17f9a684, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5195621030686544253, guid: f34d53e40e9f59c4686fad7f17f9a684, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5195621030686544253, guid: f34d53e40e9f59c4686fad7f17f9a684, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5195621030686544253, guid: f34d53e40e9f59c4686fad7f17f9a684, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5195621030686544253, guid: f34d53e40e9f59c4686fad7f17f9a684, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5195621030686544253, guid: f34d53e40e9f59c4686fad7f17f9a684, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5195621030686544253, guid: f34d53e40e9f59c4686fad7f17f9a684, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5195621030686544253, guid: f34d53e40e9f59c4686fad7f17f9a684, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5195621030686544253, guid: f34d53e40e9f59c4686fad7f17f9a684, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5195621030686544253, guid: f34d53e40e9f59c4686fad7f17f9a684, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5195621030686544253, guid: f34d53e40e9f59c4686fad7f17f9a684, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5195621030686544253, guid: f34d53e40e9f59c4686fad7f17f9a684, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5195621030686544253, guid: f34d53e40e9f59c4686fad7f17f9a684, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5195621030686544253, guid: f34d53e40e9f59c4686fad7f17f9a684, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5195621030686544253, guid: f34d53e40e9f59c4686fad7f17f9a684, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5195621030686544253, guid: f34d53e40e9f59c4686fad7f17f9a684, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: f34d53e40e9f59c4686fad7f17f9a684, type: 3}
+--- !u!114 &1953248891 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5195621030686544250, guid: f34d53e40e9f59c4686fad7f17f9a684, type: 3}
+  m_PrefabInstance: {fileID: 1953248890}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 40c0b673e9958114b94e94b66f448e46, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1954960978
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -21116,7 +21591,7 @@ Transform:
   - {fileID: 2049995130}
   - {fileID: 889990484}
   m_Father: {fileID: 0}
-  m_RootOrder: 12
+  m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &2106183434
 PrefabInstance:

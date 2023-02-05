@@ -24,6 +24,7 @@ public class BattleSystem : MonoBehaviour
 
     public TMPro.TMP_Text dialogueText;
     public TMPro.TMP_Text hintText;
+    public TMPro.TMP_Text nameText;
 
     public BattleHUD playerHUD;
     public BattleHUD enemyHUD;
@@ -39,11 +40,16 @@ public class BattleSystem : MonoBehaviour
     private Queue<string> inputs;
     public SampleCodes answers;
 
+    private Queue<string> outputs;
+    public Dialogue outs;
+    public Animator outAnim;
+
     // Start is called before the first frame update
     void Start()
     {
         FindObjectOfType<AudioManager>().Play("Code");
         inputs = new Queue<string>();
+        outputs = new Queue<string>();
         state = BattleState.START;
         StartCoroutine(SetupBattle());
         Respawn = SceneManager.GetActiveScene().buildIndex;
@@ -69,10 +75,53 @@ public class BattleSystem : MonoBehaviour
         }
     }
 
+    public void OutSetup(Dialogue dialogue)
+    {
+        outAnim.SetBool("isOpen", true);
+        nameText.text = dialogue.name;
+
+        outputs.Clear();
+
+        foreach (string sentence in dialogue.sentences)
+        {
+            outputs.Enqueue(sentence);
+        }
+    }
+
+    public void DisplayNextSentence()
+    {
+        if (outputs.Count == 0)
+        {
+            EndDialogue();
+            return;
+        }
+
+        string sentence = outputs.Dequeue();
+
+        //StopCoroutine(TypeSentence());
+        StartCoroutine(TypeSentence(sentence));
+    }
+
+    IEnumerator TypeSentence(string sentence)
+    {
+        hintText.text = "";
+        foreach (char letter in sentence.ToCharArray())
+        {
+            hintText.text += letter;
+            yield return null;
+        }
+    }
+
+    void EndDialogue()
+    {
+        outAnim.SetBool("isOpen", false);
+    }
+
     IEnumerator SetupBattle()
     {
         Debug.Log("Setting up");
         Setup(answers);
+        OutSetup(outs);
         State.lvlState = "Code";
         //save
         //SaveStats();
@@ -121,6 +170,8 @@ public class BattleSystem : MonoBehaviour
     {
         if (inputLine == x)
         {
+            DisplayNextSentence();
+
             yes = true;
 
             bool isDead = enemyUnit.TakeDamage(playerUnit.damage);
@@ -131,7 +182,7 @@ public class BattleSystem : MonoBehaviour
             enemyHUD.setHP(enemyUnit.currentHP);
             dialogueText.text = "Correct code! The attack is a success!";
 
-            yield return new WaitForSeconds(2.5f);
+            yield return new WaitForSeconds(1.5f);
 
             playerUnit.isNotAttacking();
             inputClear();
@@ -146,6 +197,8 @@ public class BattleSystem : MonoBehaviour
             }
 
             yes = true;
+
+            yield return new WaitForSeconds(2f);
 
             if (isDead)
             {
@@ -234,7 +287,6 @@ public class BattleSystem : MonoBehaviour
             return;
 
         StartCoroutine(PlayerAttack());
-
     }
 
 }

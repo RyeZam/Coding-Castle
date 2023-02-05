@@ -223,6 +223,22 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5275883414170889440, guid: f1c52c147aa0e8c43920ca1c695d7188, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1122832757}
+    - target: {fileID: 5275883414170889440, guid: f1c52c147aa0e8c43920ca1c695d7188, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: OnNext
+      objectReference: {fileID: 0}
+    - target: {fileID: 5275883414170889440, guid: f1c52c147aa0e8c43920ca1c695d7188, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: DoorOpen, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 5275883414170889440, guid: f1c52c147aa0e8c43920ca1c695d7188, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f1c52c147aa0e8c43920ca1c695d7188, type: 3}
 --- !u!1 &8216743 stripped
@@ -5928,7 +5944,8 @@ PrefabInstance:
       propertyPath: reqChest
       value: 1
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 4375847293486558285, guid: f394a90a3eb77a84b8908e6200f194a5, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: f394a90a3eb77a84b8908e6200f194a5, type: 3}
 --- !u!1001 &995709923
 PrefabInstance:
@@ -6734,6 +6751,17 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 493908309045151349, guid: f7d258d4b07aa0d4da55a68ae3861039, type: 3}
   m_PrefabInstance: {fileID: 807312608}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1122832757 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7463429110017815780, guid: f394a90a3eb77a84b8908e6200f194a5, type: 3}
+  m_PrefabInstance: {fileID: 994617544}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1280497c05a7c8c4297aa8497a2959a0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!4 &1149062943 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 493908309045151349, guid: f7d258d4b07aa0d4da55a68ae3861039, type: 3}

@@ -49,7 +49,7 @@ public class FountainLogic : MonoBehaviour
 
             if (store == ReqType)
             {
-                num -= other.GetComponent<Jar>().value;
+                num --;
                 count--;
                 Inventory.fountain--;
             }

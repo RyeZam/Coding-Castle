@@ -6131,6 +6131,22 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5275883414170889440, guid: f1c52c147aa0e8c43920ca1c695d7188, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 918246982}
+    - target: {fileID: 5275883414170889440, guid: f1c52c147aa0e8c43920ca1c695d7188, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: OnNext
+      objectReference: {fileID: 0}
+    - target: {fileID: 5275883414170889440, guid: f1c52c147aa0e8c43920ca1c695d7188, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: PuzzleOpen, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 5275883414170889440, guid: f1c52c147aa0e8c43920ca1c695d7188, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f1c52c147aa0e8c43920ca1c695d7188, type: 3}
 --- !u!1 &840725823 stripped
@@ -6566,6 +6582,17 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 2369522034100369690, guid: 1d78fe57e5ae38f4fa5f4d454922c7a4, type: 3}
   m_PrefabInstance: {fileID: 902571277}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &918246982 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4375847293486558285, guid: f394a90a3eb77a84b8908e6200f194a5, type: 3}
+  m_PrefabInstance: {fileID: 1034713421}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b977d04aef5c0504d9e3e65aabec1145, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &926945889 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4201684443735614415, guid: 7c3ad4af103d5e94fa0aa2511f94e55b, type: 3}
