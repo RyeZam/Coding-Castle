@@ -7,6 +7,6 @@ public class BacktoMM : MonoBehaviour
 {
     void OnEnable()
     {
-        SceneManager.LoadScene("MainMenu", LoadSceneMode.Single);
+        SceneManager.LoadScene("Main Menu", LoadSceneMode.Single);
     }
 }
