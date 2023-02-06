@@ -30,7 +30,6 @@ public class Inventory : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        lvl = 0;
         count = 0;
         enCount = 0;
         chest = 0;
