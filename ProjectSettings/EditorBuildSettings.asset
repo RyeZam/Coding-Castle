@@ -6,17 +6,17 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/MENU/Main Menu.unity
+    path: Assets/Scenes/MENU/MainMenu.unity
     guid: b049a4011855d46449f0af226424a992
   - enabled: 1
     path: Assets/Scenes/MENU/SelecLevel.unity
     guid: eba1f08c2ad835d468647a4089fabf41
-  - enabled: 0
-    path: Assets/Scenes/MENU/Level Select.unity
-    guid: a43fc099aba70bd46af279835f04cbf7
   - enabled: 1
     path: Assets/Scenes/Levels/Cutscene.unity
     guid: fe6646e42deeff341ae6d4b258ba08e5
+  - enabled: 0
+    path: Assets/Scenes/MENU/Level Select.unity
+    guid: a43fc099aba70bd46af279835f04cbf7
   - enabled: 1
     path: Assets/Scenes/Tutorial/Tutorial.unity
     guid: 2dd0e4989d55bbe4a8a8161d197a4c13
@@ -98,6 +98,12 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Levels/12B.unity
     guid: a6d8340ec993c1b479b59e713930ae21
+  - enabled: 1
+    path: Assets/Scenes/Levels/End Scene.unity
+    guid: a71a512f67ac76e4186e79b1423f8f38
+  - enabled: 1
+    path: Assets/Scenes/Levels/EndCredits.unity
+    guid: 30270ecc50b081c47bd6588851154bc2
   - enabled: 0
     path: Assets/Scenes/Levels/13A.unity
     guid: 761cdec36bd3435448279324d0b6d705
